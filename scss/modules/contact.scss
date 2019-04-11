@@ -1,0 +1,24 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+        margin: .5em;
+    }
+
+    a:hover, p:hover {
+        color: $link-color;
+        transition: all 0.3s ease 0s;
+    }
+
+    div {
+        padding: 1em;
+    }
+}
+
+.email {
+    display: none;
+}

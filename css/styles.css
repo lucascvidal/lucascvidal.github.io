@@ -539,6 +539,28 @@ ul {
   }
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0.5em;
+}
+.contact a:hover, .contact p:hover {
+  color: #007ACC;
+  transition: all 0.3s ease 0s;
+}
+.contact div {
+  padding: 1em;
+}
+
+.email {
+  display: none;
+}
+
 .projects {
   display: none;
 }
