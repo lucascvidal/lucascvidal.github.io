@@ -3,9 +3,6 @@
     768px / 16px = 48em = mq-1
     992px / 16px = 62em = mq-2
 */
-/* This media query will apply only to extra small devices */
-/* This media query will apply to small and above devices */
-/* This media query will apply to medium and above devices */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -476,6 +473,7 @@ ul {
   text-decoration: none;
   border-radius: 0.25em;
   padding: 0.25em 0.5em;
+  margin: 0.3em;
   transition: all 0.3s ease 0s;
 }
 
@@ -486,6 +484,43 @@ ul {
 
 .btn-primary {
   border-color: #CCCCCC;
+}
+
+.navbar {
+  overflow: hidden;
+  padding: 1em;
+}
+@media only screen and (max-width: 61.9375em) {
+  .navbar > div {
+    display: none;
+  }
+}
+@media only screen and (min-width: 62em) {
+  .navbar > div {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 62em) {
+  .icon {
+    display: none;
+  }
+}
+
+.active {
+  color: #007ACC;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@media only screen and (min-width: 62em) {
+  .menu {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

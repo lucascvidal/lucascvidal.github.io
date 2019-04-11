@@ -27,22 +27,25 @@
 
         <!-- Navbar -->
         <nav class="navbar">
-            <a href="/" class="btn">
-                Home
+            <a href="javascript:void(0);" class="btn icon" onclick="showMenu()">
+                <i class="fas fa-bars"></i>
             </a>
-            <a href="javascript:void(0);" class="btn" id="about-btn">
-                About Me
-            </a>
-            <a href="javascript:void(0);" class="btn" onclick="projectHandler()">
-                Projects
-            </a>
-            <a href="javascript:void(0);" class="btn" id="cont-btn">
-                Contact
-            </a>
-            <a href="javascript:void(0);" class="btn" id="lang-btn">
-                PT
-            </a>
-            <a href="javascript:void(0);" class="icon" onclick="showMenu()">&#9776;</a>
+            <div>
+                <div class="menu">
+                    <a href="/" class="btn">
+                        Home
+                    </a>
+                    <a href="javascript:void(0);" class="btn" id="about-btn">
+                        About Me
+                    </a>
+                    <a href="javascript:void(0);" class="btn" onclick="showProjects()">
+                        Projects
+                    </a>
+                    <a href="javascript:void(0);" class="btn" id="cont-btn">
+                        Contact
+                    </a>
+                </div>
+            </div>
         </nav>
 
         <!-- Name and description -->

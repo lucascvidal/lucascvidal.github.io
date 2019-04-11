@@ -1,3 +1,35 @@
 .navbar {
     overflow: hidden;
+    padding: 1em;
+
+    > div {
+        @include medium-and-below {
+            display: none;
+        }
+
+        @include medium-and-above {
+            display: block;
+        }
+    }
+}
+
+.icon {
+    @include medium-and-above {
+        display: none;
+    }
+}
+
+.active {
+    color: $blue;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @include medium-and-above {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 }
