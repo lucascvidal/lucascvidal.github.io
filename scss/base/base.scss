@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: $text-color;
+    font-family: 'Consolas', 'Inconsolata', monospace;
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+ul {
+    line-height: 1.5;
+}
