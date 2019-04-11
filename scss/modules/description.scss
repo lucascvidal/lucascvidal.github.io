@@ -1,0 +1,16 @@
+.description {
+    text-align: center;
+    padding: 1em;
+}
+
+.name {
+    font-size: 3.5em;
+    color: $medium-text;
+}
+
+.p1 {
+    
+    @include medium-and-above {
+        font-size: 1.3em;
+    }
+}

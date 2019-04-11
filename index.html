@@ -2,68 +2,82 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
 
-    <title>Lucas Vidal - Web Development</title>
+	<title>Lucas Vidal - Web Development</title>
 
-    <!-- Page's own CSS -->
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+	<!-- Page's own CSS -->
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
 
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <!-- jQuery JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- jQuery JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <!-- Page's own JS -->
-    <script src="js/scripts.js"></script>
+	<!-- Page's own JS -->
+	<script src="js/scripts.js"></script>
 </head>
 
 <body class="background-secondary">
 
-    <main class="container background-primary">
+	<main class="container background-primary">
 
-        <!-- Navbar -->
-        <nav class="navbar">
-            <a href="javascript:void(0);" class="btn icon" onclick="showMenu()">
-                <i class="fas fa-bars"></i>
-            </a>
-            <div>
-                <div class="menu">
-                    <a href="/" class="btn">
-                        Home
-                    </a>
-                    <a href="javascript:void(0);" class="btn" id="about-btn">
-                        About Me
-                    </a>
-                    <a href="javascript:void(0);" class="btn" onclick="showProjects()">
-                        Projects
-                    </a>
-                    <a href="javascript:void(0);" class="btn" id="cont-btn">
-                        Contact
-                    </a>
-                </div>
-            </div>
-        </nav>
+		<!-- Navbar -->
+		<nav class="navbar">
+			<a href="javascript:void(0);" class="btn icon" onclick="showMenu()">
+				<i class="fas fa-bars"></i>
+			</a>
+			<div>
+				<div class="menu">
+					<a href="/" class="btn">
+						Home
+					</a>
+					<a href="javascript:void(0);" class="btn" id="about-btn">
+						About Me
+					</a>
+					<a href="javascript:void(0);" class="btn" onclick="showProjects()">
+						Projects
+					</a>
+					<a href="javascript:void(0);" class="btn" id="cont-btn">
+						Contact
+					</a>
+				</div>
+			</div>
+		</nav>
 
-        <!-- Name and description -->
-        <section class="description">
-            Name and description
-        </section>
+		<!-- Name and description -->
+		<section class="description">
+			<p class="name">
+				Hello, my name is Lucas. I'm a front-end developer.
+			</p>
+			<p class="p1">
+				I develop projects using Visual Studio Code and technologies like ReactJS, Bootstrap, jQuery, NodeJS and
+				Sass.
+			</p>
+			<div>
+				<button class="btn btn-primary">
+					CV
+				</button>
+				<button class="btn btn-primary" onclick="showProjects();">
+					Projects
+				</button>
+			</div>
+		</section>
 
-        <!-- Projects -->
-        <section class="projects">
-            Projects
-        </section>
+		<!-- Projects -->
+		<section class="projects">
+			Projects
+		</section>
 
-        <!-- Contact info -->
-        <section class="contact">
-            Contact
-        </section>
+		<!-- Contact info -->
+		<section class="contact">
+			Contact
+		</section>
 
-    </main>
+	</main>
 </body>
 
 </html>

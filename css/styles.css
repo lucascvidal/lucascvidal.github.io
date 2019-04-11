@@ -523,4 +523,24 @@ ul {
   }
 }
 
+.description {
+  text-align: center;
+  padding: 1em;
+}
+
+.name {
+  font-size: 3.5em;
+  color: #929292;
+}
+
+@media only screen and (min-width: 62em) {
+  .p1 {
+    font-size: 1.3em;
+  }
+}
+
+.projects {
+  display: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
