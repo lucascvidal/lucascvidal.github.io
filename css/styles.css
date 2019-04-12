@@ -411,6 +411,7 @@ textarea {
 
 html {
   box-sizing: border-box;
+  height: 100%;
 }
 
 *,
@@ -423,6 +424,7 @@ body {
   color: #CCCCCC;
   font-family: "Consolas", "Inconsolata", monospace;
   font-weight: normal;
+  height: 100%;
 }
 
 h1,
@@ -440,6 +442,8 @@ ul {
   margin-right: auto;
   margin-left: auto;
   max-width: 1920px;
+  height: 100%;
+  overflow: auto;
 }
 @media only screen and (min-width: 48em) {
   .container {
@@ -563,6 +567,28 @@ ul {
 
 .projects {
   display: none;
+  padding: 1em;
+  text-align: center;
+}
+.projects > div {
+  margin-bottom: 1em;
+}
+
+.img-container {
+  padding: 0.5em;
+}
+.img-container img {
+  width: 100%;
+}
+
+.project-description {
+  padding: 0.5em;
+}
+.project-description ul, .project-description p {
+  text-align: left;
+}
+.project-description ul {
+  margin-left: -1.5em;
 }
 
 /*# sourceMappingURL=styles.css.map */

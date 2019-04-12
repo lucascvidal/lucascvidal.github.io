@@ -1,3 +1,31 @@
 .projects {
     display: none;
+    padding: 1em;
+    text-align: center;
+
+    > div {
+        margin-bottom: 1em;
+    }
+}
+
+.img-container {
+
+    padding: .5em;
+
+    img {
+        width: 100%;
+    }
+}
+
+.project-description {
+
+    padding: .5em;
+
+    ul, p {
+        text-align: left;
+    }
+
+    ul {
+        margin-left: -1.5em;
+    }
 }

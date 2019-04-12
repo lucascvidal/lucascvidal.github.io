@@ -13,4 +13,6 @@ $gutter-margin: ($gutter / 2);
     margin-right: auto;
     margin-left: auto;
     max-width: 1920px;
+    height: 100%;
+    overflow: auto;
 }

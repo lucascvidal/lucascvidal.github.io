@@ -32,3 +32,15 @@ function showMenu() {
 	// Toggle menu
 	$('.navbar > div').slideToggle();
 }
+
+function showProjects() {
+
+	// Hide description
+    $('.description').slideUp();
+
+    // Hide contacts
+    $('.contact').slideUp();
+
+    // Display projects section
+    $('.projects').show();
+}
