@@ -452,6 +452,10 @@ ul {
   }
 }
 
+.active {
+  display: block;
+}
+
 .background-primary {
   background: #1E1E1E;
 }
@@ -511,10 +515,6 @@ ul {
   }
 }
 
-.active {
-  color: #007ACC;
-}
-
 .menu {
   display: flex;
   flex-direction: column;
@@ -561,10 +561,6 @@ ul {
   padding: 1em;
 }
 
-.email {
-  display: none;
-}
-
 .projects {
   display: none;
   padding: 1em;
@@ -589,6 +585,14 @@ ul {
 }
 .project-description ul {
   margin-left: -1.5em;
+}
+
+.about {
+  display: none;
+  padding: 1em;
+}
+.about h1 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

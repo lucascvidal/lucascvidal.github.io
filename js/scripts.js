@@ -33,14 +33,23 @@ function showMenu() {
 	$('.navbar > div').slideToggle();
 }
 
-function showProjects() {
+function showSection(classElement) {
 
-	// Hide description
-    $('.description').slideUp();
+	hideActive();
 
-    // Hide contacts
-    $('.contact').slideUp();
+	$(classElement).slideDown(400, () => {
 
-    // Display projects section
-    $('.projects').show();
+		// Add active class to element
+		$(classElement).addClass("active");
+	});
+}
+
+function hideActive() {
+
+	// Hide active section on page
+	$('.active').slideUp(400, () => {
+
+		// Remove active class from element
+		$('.active').removeClass("active");
+	});
 }

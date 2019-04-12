@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-	<!-- jQuery JS -->
+	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
 		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
@@ -32,16 +32,16 @@
 			</a>
 			<div>
 				<div class="menu">
-					<a href="/" class="btn">
+					<a href="javascript:void(0);" class="btn" onclick="showSection('.description')">
 						Home
 					</a>
-					<a href="javascript:void(0);" class="btn" id="about-btn">
+					<a href="javascript:void(0);" class="btn" onclick="showSection('.about')">
 						About Me
 					</a>
-					<a href="javascript:void(0);" class="btn" onclick="showProjects()">
+					<a href="javascript:void(0);" class="btn" onclick="showSection('.projects')">
 						Projects
 					</a>
-					<a href="javascript:void(0);" class="btn" id="cont-btn">
+					<a href="javascript:void(0);" class="btn" id="cont-btn" onclick="hideActive()">
 						Contact
 					</a>
 				</div>
@@ -49,7 +49,7 @@
 		</nav>
 
 		<!-- Name and description -->
-		<section class="description">
+		<section class="description active">
 			<p class="name">
 				Hello, my name is Lucas. I'm a front-end developer.
 			</p>
@@ -61,7 +61,7 @@
 				<button class="btn btn-primary">
 					CV
 				</button>
-				<button class="btn btn-primary" onclick="showProjects();">
+				<button class="btn btn-primary" onclick="showSection('.projects')">
 					Projects
 				</button>
 			</div>
@@ -124,17 +124,43 @@
 						<li> Modular CSS with Sass </li>
 					</ul>
 					<div>
-						<a href="https://github.com/lucascvidal/my-wallet" target="_blank"
-							class="btn btn-primary">
+						<a href="https://github.com/lucascvidal/my-wallet" target="_blank" class="btn btn-primary">
 							Source
 						</a>
-						<a href="https://lucascvidal.github.io/my-wallet/" target="_blank"
-							class="btn btn-primary">
+						<a href="https://lucascvidal.github.io/my-wallet/" target="_blank" class="btn btn-primary">
 							Demo
 						</a>
 					</div>
 				</div>
 			</div>
+		</section>
+
+		<!-- About me -->
+		<section class="about">
+			<h1>About Me</h1>
+			<p>My name is Lucas Cezere Vidal and I'm currently living in São Paulo, Brazil.</p>
+			<p>I know and have used (to various extents) these technologies:</p>
+			<ul>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>JavaScript (ES5 and ES6)</li>
+				<li>JSX</li>
+				<li>Bootstrap</li>
+				<li>jQuery</li>
+				<li>ReactJS</li>
+				<li>React Router</li>
+				<li>Sass</li>
+				<li>Git</li>
+			</ul>
+			<p>I also know and have used (to less extent than the above) these other technologies:</p>
+			<ul>
+				<li>Python</li>
+				<li>Flask</li>
+				<li>NodeJS</li>
+				<li>Java</li>
+				<li>C</li>
+			</ul>
+			<p>Please, feel free to check my LinkedIn and GitHub profiles.</p>
 		</section>
 
 		<!-- Contact info -->
@@ -147,7 +173,7 @@
 					<i class="fab fa-linkedin fa-2x"></i>
 				</a>
 			</div>
-			<p class="email">lucascezerevidal@outlook.com</p>
+			<p>lucascezerevidal@outlook.com</p>
 		</section>
 
 	</main>
