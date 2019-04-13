@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
 /*
     768px / 16px = 48em = mq-1
-    1023px / 16px = 64em = mq-2
+    1024px / 16px = 64em = mq-2
+    1920px / 16px = 120em = mq-3
 */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -413,6 +414,16 @@ html {
   box-sizing: border-box;
   height: 100%;
 }
+@media only screen and (min-width: 48em) {
+  html {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width: 120.0625em) {
+  html {
+    font-size: 1.6em;
+  }
+}
 
 *,
 *:before,
@@ -592,18 +603,16 @@ ul {
 .project-description {
   padding: 0.5em;
 }
-.project-description ul,
 .project-description p {
   text-align: center;
 }
 @media only screen and (max-width: 47.9375em) {
-  .project-description ul,
-.project-description p {
+  .project-description p {
     text-align: left;
   }
 }
 .project-description ul {
-  margin-left: -1.5em;
+  list-style-position: inside;
 }
 
 .about {

@@ -3,7 +3,7 @@ window.onload = function () {
 	// Media query event handler
 	if (matchMedia) {
 
-		// Media query for medium size screens
+		// Media query for medium and above size screens
 		const mq = window.matchMedia("(min-width: 992px)");
 
 		// Listener for media query

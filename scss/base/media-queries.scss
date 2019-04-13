@@ -1,10 +1,12 @@
 /*
     768px / 16px = 48em = mq-1
-    1023px / 16px = 64em = mq-2
+    1024px / 16px = 64em = mq-2
+    1920px / 16px = 120em = mq-3
 */
 
 $mq-1: 48em !default;
 $mq-2: 64em !default;
+$mq-3: 120em !default;
 
 @mixin extra-small-only {
     @media only screen and (max-width: $mq-1 - 0.0625) {
@@ -26,6 +28,12 @@ $mq-2: 64em !default;
 
 @mixin medium-and-above {
     @media only screen and (min-width: $mq-2 + 0.0625) {
+        @content;
+    }
+}
+
+@mixin large-and-above {
+    @media only screen and (min-width: $mq-3 + 0.0625) {
         @content;
     }
 }
