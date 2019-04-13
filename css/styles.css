@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
 /*
     768px / 16px = 48em = mq-1
-    992px / 16px = 62em = mq-2
+    1023px / 16px = 64em = mq-2
 */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -456,6 +456,13 @@ ul {
   display: block;
 }
 
+.center {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
 .background-primary {
   background: #1E1E1E;
 }
@@ -498,18 +505,18 @@ ul {
   overflow: hidden;
   padding: 1em;
 }
-@media only screen and (max-width: 61.9375em) {
+@media only screen and (max-width: 63.9375em) {
   .navbar > div {
     display: none;
   }
 }
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 64.0625em) {
   .navbar > div {
     display: block;
   }
 }
 
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 64.0625em) {
   .icon {
     display: none;
   }
@@ -520,7 +527,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
 }
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 64.0625em) {
   .menu {
     flex-direction: row;
     justify-content: flex-end;
@@ -537,7 +544,7 @@ ul {
   color: #929292;
 }
 
-@media only screen and (min-width: 62em) {
+@media only screen and (min-width: 64.0625em) {
   .p1 {
     font-size: 1.3em;
   }
@@ -576,12 +583,24 @@ ul {
 .img-container img {
   width: 100%;
 }
+@media only screen and (min-width: 64.0625em) {
+  .img-container img {
+    width: 1000px;
+  }
+}
 
 .project-description {
   padding: 0.5em;
 }
-.project-description ul, .project-description p {
-  text-align: left;
+.project-description ul,
+.project-description p {
+  text-align: center;
+}
+@media only screen and (max-width: 47.9375em) {
+  .project-description ul,
+.project-description p {
+    text-align: left;
+  }
 }
 .project-description ul {
   margin-left: -1.5em;
