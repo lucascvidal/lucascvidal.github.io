@@ -603,16 +603,20 @@ ul {
 .project-description {
   padding: 0.5em;
 }
-.project-description p {
-  text-align: center;
-}
-@media only screen and (max-width: 47.9375em) {
-  .project-description p {
-    text-align: left;
+@media only screen and (min-width: 64.0625em) {
+  .project-description {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
 }
 .project-description ul {
   list-style-position: inside;
+}
+@media only screen and (max-width: 47.9375em) {
+  .project-description ul {
+    text-align: left;
+  }
 }
 
 .about {

@@ -26,18 +26,20 @@
 
     padding: .5em;
 
-    p {
-
-        text-align: center;
-
-        @include extra-small-only {
-
-            text-align: left;
-        }
+    @include medium-and-above {
+        
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
     }
 
     ul {
         
         list-style-position: inside;
+
+        @include extra-small-only {
+
+            text-align: left;
+        }
     }
 }
