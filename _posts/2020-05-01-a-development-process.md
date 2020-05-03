@@ -28,7 +28,7 @@ Here I try to put into words and diagrams what I want to build to fulfill the re
 
 In this stage I also define the project management metrics and techniques that I'll be using, along with the tools to write code.
 
-I use git as versioning system, GitHub to store my remote git repository and a combination of Visual Studio Code and Vim to write most of my code.
+For most of my projects I use git as versioning system, GitHub to store my remote git repository and a combination of Visual Studio Code and Vim to write code. These tools may change depending on what technology and language I'll use for the project.
 
 To manage my projects I use GitHub's project board feature with an automated kanban template and track backlog items as issues in the repository.
 ### Design
