@@ -19,10 +19,16 @@ It took me a while to figure out this pattern, but it kept coming up and eventua
 
 This 3-stage process I wrote about was extended and thought out by a lot of smart people and there are a lot of books covering different software development lifecycle techniques and frameworks. Along the next lines I will lay out what I have been doing and what has worked for me until now personally, because when I'm working for somebody I usually follow what they believe to be the ideal development process.
 
-## The development process phases
-Each phase has its own processes and tools to get to the next phase.
+## The development process stages
+Each stage has its own processes and tools to get to the next stage.
 ### Requirement analysis
-In this phase I investigate the problem I'm trying to solve and come up with the requirements of something that would solve this problem. I have been studying about UX and I believe it is of most importance here because the UX field has a lot of techniques to help us understand the needs of the user, which turn out to define the requirements of the software.
+In this stage I investigate the problem I'm trying to solve and I come up with the requirements of something that would solve this problem.
+
+Business and UX tools help me map the needs of the user, which turn out to define the requirements of the software. Studying such tools is important to build software that is relevant to the user. I also find helpful to study the different economic views on value perception by people. That is relevant because if the user doesn't see value in the software I'm offering, it's quite simply useless.
+
+I have been familiar with tools such as the Business Model Canvas and more traditional Business Plans, but they go way too deep into the operations of a business and for this particular stage of the software development lifecycle I think it's just too much.
+
+I came to know a tool called [Value Proposition Canvas](https://designabetterbusiness.com/2017/10/12/how-to-really-understand-your-customer-with-the-value-proposition-canvas/), which I believe is derived from the Business Model Canvas but focus solely on the value proposition to the user, and this tool has really helped me understand the needs of the user so that I could define the requirements of the piece of software I would build.
 ### Plan
 Here I try to put into words and diagrams what I want to build to fulfill the requirements.
 
@@ -40,9 +46,9 @@ I start by drafting the algorithm I want to implement. I literally write the ste
 
 I like to use the [GitHub flow](https://www.youtube.com/watch?v=PBI2Rz-ZOxU) as a workflow. GitHub Learning Lab has a [nice short course](https://lab.github.com/githubtraining/introduction-to-github) presenting it and a few other GitHub features.
 ### Test
-This is the moment to test what was built. As I mentioned in the previous phase, I like to write unit tests for the algorithms I implement into code, so in this phase I run all these unit tests and also test the software manually by checking if the feature behave as I want it to.
+This is the moment to test what was built. As I mentioned in the previous stage, I like to write unit tests for the algorithms I implement into code, so in this stage I run all these unit tests and also test the software manually by checking if the feature behave as I want it to.
 ### Launch
-Time to put the software to use, measure what's important in the usage and gather feedback for refinement. This phase could also be called deployment.
+Time to put the software to use, measure what's important in the usage and gather feedback for refinement. This stage could also be called deployment.
 
 This cycle can repeat itself every time a new feature or an improvement is thought for the software. It isn't static.
 
