@@ -1,0 +1,55 @@
+div.home {
+  padding: 72px;
+
+  h2 {
+    color: $secondary-color;
+    font-family: $secondary-font-family;
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    font-weight: 600;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 72px;
+    font-weight: 700;
+  }
+
+  div.light-border {
+    border-left: 2px solid $quaternary-color;
+    padding-left: 16px;
+
+    p {
+      margin-bottom: 16px;
+    }
+  }
+
+  div.social-contact {
+    margin-top: 36px;
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      color: $secondary-color;
+      text-decoration: none;
+      font-family: $secondary-font-family;
+      font-weight: 600;
+
+      p {
+        margin-left: 16px;
+      }
+
+      svg {
+        fill: $secondary-color
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:not(:first-child) {
+        margin-top: 12px;
+      }
+    }
+  }
+}

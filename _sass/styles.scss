@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$primary-font-family: "Libre Baskerville", "Times New Roman", serif;
+$secondary-font-family: "Open Sans", Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+
+$primary-color: #4f6d7a;
+$secondary-color: #dd6e42;
+$tertiary-color: #f3ecdb;
+$quaternary-color: #c0d6df;
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+@mixin media-query-up($device) {
+  @media screen and (min-width: $device) {
+    @content;
+  }
+}
+
+@import
+  "partials/base",
+  "partials/header",
+  "partials/footer",
+  "partials/home"
+;

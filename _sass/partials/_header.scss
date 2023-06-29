@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    display: block;
+    padding: 26px;
+    color: $tertiary-color;
+    background-color: $secondary-color;
+    line-height: 1.25;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
