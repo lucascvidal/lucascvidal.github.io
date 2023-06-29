@@ -41,5 +41,20 @@ layout: default
       </p>
     </a>
   </div>
+</div>
 
+<div class="menu">
+  <h3>Latest blog posts...</h3>
+  <ul>
+    {%- for post in site.posts limit:5  -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          <p>
+            {{ post.date | date: "%Y-%m-%d" }}
+          </p>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
 </div>
