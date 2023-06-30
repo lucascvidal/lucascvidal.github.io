@@ -1,6 +1,10 @@
 div.home {
   padding: 72px;
 
+  @include media-query-up($md) {
+    padding: 96px;
+  }
+
   h2 {
     color: $secondary-color;
     font-family: $secondary-font-family;
@@ -19,14 +23,53 @@ div.home {
     border-left: 2px solid $quaternary-color;
     padding-left: 16px;
 
-    p {
+    > * {
+      @include media-query-up($md) {
+        width: 50%;
+      }
+    }
+
+    @include media-query-up($md) {
+      border-left: unset;
+      padding-left: 0px;
+    }
+
+    > div {      
+      @include media-query-up($md) {
+        border-left: 2px solid $quaternary-color;
+        padding-left: 16px;
+        margin-right: 16px; 
+      }
+    }
+
+    > p {             
+      @include media-query-up($md) {
+        border-left: 2px solid $quaternary-color;
+        padding-left: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        margin-bottom: 0px;
+      }
+    }
+    
+    p:not(:last-child) {
       margin-bottom: 16px;
+    }
+
+    @include media-query-up($md) {
+      display: flex;
+      justify-content: space-between;
     }
   }
 
   div.social-contact {
     margin-top: 36px;
-
+    
+    @include media-query-up($md) {
+      display: flex;
+      justify-content: space-between;
+    }
     .social-link {
       display: flex;
       align-items: center;
@@ -34,6 +77,10 @@ div.home {
       text-decoration: none;
       font-family: $secondary-font-family;
       font-weight: 600;
+
+      @include media-query-up($md) {
+        width: 50%;
+      }
 
       p {
         margin-left: 16px;
@@ -49,6 +96,14 @@ div.home {
 
       &:not(:first-child) {
         margin-top: 12px;
+
+        @include media-query-up($md) {
+          margin-top: 0;
+        }
+      }
+
+      &:first-child {
+        margin-right: 16px; 
       }
     }
   }

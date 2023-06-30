@@ -2,6 +2,10 @@ div.menu {
   padding: 72px;
   background-color: $primary-color;
 
+  @include media-query-up($md) {
+    padding: 96px;
+  }
+
   h3 {
     color: $secondary-color;
     font-family: $secondary-font-family;
