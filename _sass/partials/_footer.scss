@@ -7,4 +7,20 @@ footer {
   line-height: 1.5;
   text-align: center;
   padding: 26px;
+
+  @include media-query-up($xl) {
+    background-color: $tertiary-color;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  > div {
+    @include media-query-up($xl) {
+      background-color: $primary-color;
+      width: 50%;
+      padding: 26px;
+      box-sizing: border-box;
+    }
+  }
 }

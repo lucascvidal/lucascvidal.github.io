@@ -4,6 +4,11 @@ div.home {
   @include media-query-up($md) {
     padding: 96px;
   }
+  
+  @include media-query-up($xl) {
+    padding: 48px;
+    width: 50%;
+  }
 
   h2 {
     color: $secondary-color;
@@ -24,18 +29,18 @@ div.home {
     padding-left: 16px;
 
     > * {
-      @include media-query-up($md) {
+      @include media-query-up($lg) {
         width: 50%;
       }
     }
 
-    @include media-query-up($md) {
+    @include media-query-up($lg) {
       border-left: unset;
       padding-left: 0px;
     }
 
     > div {      
-      @include media-query-up($md) {
+      @include media-query-up($lg) {
         border-left: 2px solid $quaternary-color;
         padding-left: 16px;
         margin-right: 16px; 
@@ -43,7 +48,7 @@ div.home {
     }
 
     > p {             
-      @include media-query-up($md) {
+      @include media-query-up($lg) {
         border-left: 2px solid $quaternary-color;
         padding-left: 16px;
         display: flex;
@@ -57,7 +62,7 @@ div.home {
       margin-bottom: 16px;
     }
 
-    @include media-query-up($md) {
+    @include media-query-up($lg) {
       display: flex;
       justify-content: space-between;
     }
@@ -66,7 +71,7 @@ div.home {
   div.social-contact {
     margin-top: 36px;
     
-    @include media-query-up($md) {
+    @include media-query-up($lg) {
       display: flex;
       justify-content: space-between;
     }
@@ -78,7 +83,7 @@ div.home {
       font-family: $secondary-font-family;
       font-weight: 600;
 
-      @include media-query-up($md) {
+      @include media-query-up($lg) {
         width: 50%;
       }
 
@@ -97,7 +102,7 @@ div.home {
       &:not(:first-child) {
         margin-top: 12px;
 
-        @include media-query-up($md) {
+        @include media-query-up($lg) {
           margin-top: 0;
         }
       }
@@ -106,5 +111,15 @@ div.home {
         margin-right: 16px; 
       }
     }
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 72px - 76px);
+
+  @include media-query-up($xl) {
+    flex-direction: row;
   }
 }

@@ -1,9 +1,15 @@
 div.menu {
   padding: 72px;
   background-color: $primary-color;
+  flex-grow: 1;
 
   @include media-query-up($md) {
     padding: 96px;
+  }
+  
+  @include media-query-up($xl) {
+    padding: 48px;
+    width: 50%;
   }
 
   h3 {
