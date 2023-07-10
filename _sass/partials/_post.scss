@@ -1,0 +1,57 @@
+article.post {
+  padding: 72px;
+
+  @include media-query-up($md) {
+    padding: 96px;
+  }
+  
+  @include media-query-up($xl) {
+    padding: 48px;
+    width: 50%;
+  }
+
+  header.post-header {
+    display: block;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 24px 0;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 24px 0;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    margin: 24px 0;
+    font-weight: 600;
+  }
+
+  p, ul {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
+  a {
+    color: $secondary-color;
+
+    &:visited {
+      color: $quaternary-color;
+    }
+  }
+
+  p.post-meta {
+    color: $secondary-color;
+    font-family: $secondary-font-family;
+    font-weight: 600;
+  }
+}
