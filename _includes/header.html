@@ -1,9 +1,20 @@
 {%- if page.url contains "post" || page.url contains "posts"  -%}
   {%- assign header_class = "slim-header" -%}
+  {%- assign show_home = true -%}
+  {%- assign show_post = false -%}
+{%- endif -%}
+{%- if page.url == "/" || page.url == "/projects" -%}
+  {%- assign show_home = false -%}
+  {%- assign show_post = true -%}
 {%- endif -%}
 <header role="banner">
   <div class="{{header_class}}">
-    <a href="/posts">Blog</a>
+    {%- if show_post -%}
+      <a href="/posts">Blog</a>
+    {%- endif -%}
+    {%- if show_home -%}
+      <a href="/">Home</a>
+    {%- endif -%}
     <a href="/projects">Projects</a>
   </div>
 </header>
