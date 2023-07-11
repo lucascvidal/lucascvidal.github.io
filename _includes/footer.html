@@ -1,5 +1,8 @@
+{%- if page.url contains "post" || page.url contains "posts"  -%}
+  {%- assign header_class = "slim-footer" -%}
+{%- endif -%}
 <footer>
-  <div>
+  <div class="{{header_class}}">
     {{ site.title }} | {{ "now" | date: "%Y" }}
   </div>
 </footer>

@@ -22,6 +22,10 @@ header {
     @include media-query-up($xl) {
       width: 50%;
       background-color: $primary-color;
+
+      &.slim-header {
+        width: 25%;
+      }
     }
   }
 }

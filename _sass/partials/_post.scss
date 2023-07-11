@@ -7,7 +7,7 @@ article.post {
   
   @include media-query-up($xl) {
     padding: 48px;
-    width: 50%;
+    width: 75%;
   }
 
   header.post-header {

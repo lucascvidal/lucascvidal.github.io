@@ -1,0 +1,15 @@
+div.posts {
+  @include media-query-up($xl) {
+    width: 75%;
+    
+    article.post {
+      width: initial;
+    }
+  }
+}
+
+div.posts + div.menu, article.post + div.menu {
+  @include media-query-up($xl) {
+    width: 25%;
+  }
+}

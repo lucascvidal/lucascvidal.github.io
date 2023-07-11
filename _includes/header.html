@@ -1,5 +1,8 @@
+{%- if page.url contains "post" || page.url contains "posts"  -%}
+  {%- assign header_class = "slim-header" -%}
+{%- endif -%}
 <header role="banner">
-  <div>
+  <div class="{{header_class}}">
     <a href="/posts">Blog</a>
     <a href="/projects">Projects</a>
   </div>

@@ -67,4 +67,8 @@ body {
   flex-direction: column;
   max-width: 1432px;
   margin: 0 auto;
+
+  * {
+   box-sizing: border-box;
+  }
 }

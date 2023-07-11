@@ -1,14 +1,14 @@
 div.menu {
-  padding: 72px;
+  padding: 72px 0;
   background-color: $primary-color;
   flex-grow: 1;
 
   @include media-query-up($md) {
-    padding: 96px;
+    padding: 96px 0;
   }
   
   @include media-query-up($xl) {
-    padding: 48px;
+    padding: 48px 0;
     width: 50%;
   }
 
@@ -20,14 +20,59 @@ div.menu {
     margin-bottom: 24px;
   }
 
+  > *:not(ul) {
+    padding: 0 72px;
+
+    @include media-query-up($md) {
+      padding: 0 96px;  
+    }
+
+    @include media-query-up($xl) {
+      padding: 0 48px;  
+    }
+  }
+
   ul {
     list-style: none;
     color: $tertiary-color;
-
+    
     li {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       line-height: 1.5;
-      margin-bottom: 36px;
+      margin-bottom: 20px;
+      padding: 16px 72px;
+
+      @include media-query-up($md) {
+        padding: 16px 96px;  
+      }
+
+      @include media-query-up($xl) {
+        padding: 16px 48px;  
+      }
+
+      &:not(.latest-posts-button) {
+        font-weight: 600;
+      }
+
+      &.latest-posts-button {
+        background-color: $secondary-color;
+        font-size: 1rem;
+        text-align: center;
+        padding: 24px 72px;
+
+        @include media-query-up($md) {
+          font-size: .875rem;
+        }
+      }
+
+      &.current-post {
+        color: $primary-color;
+        background-color: $quaternary-color;
+    
+        p {
+          color: $primary-color;
+        }
+      }
 
       a {
         text-decoration: none;
@@ -38,9 +83,17 @@ div.menu {
           text-decoration: underline;
         }
 
+        @include media-query-up($xl) {
+          font-size: 1rem;
+        }
+  
         p {
           color: $quaternary-color;
-          font-size: 16px;
+          font-size: .875rem;
+
+          @include media-query-up($xl) {
+            font-size: 0.75rem;
+          }
         }
       }
     }

@@ -22,3 +22,39 @@ layout: default
   </div>
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+
+
+<div class="menu">
+  <h3>Keep reading...</h3>
+  <ul>
+    {%- assign keep_reading_array = "," | split: "," -%}
+    {%- for post in site.posts -%}
+      {%- if post.title == page.title -%}
+      {%- assign keep_reading_array = keep_reading_array | push: post.previous.previous -%}
+      {%- assign keep_reading_array = keep_reading_array | push: post.previous -%}
+      {%- assign keep_reading_array = keep_reading_array | push: post -%}
+      {%- assign keep_reading_array = keep_reading_array | push: post.next -%}
+      {%- assign keep_reading_array = keep_reading_array | push: post.next.next -%}
+      {%- endif -%}
+    {%- endfor -%}
+    {%- for post in keep_reading_array -%}
+      {%- if post.title == page.title -%}
+        {%- assign active_class = "current-post" -%}
+        {%- endif -%}
+        <li class="{{ active_class }}">
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+            <p>
+              {{ post.date | date: "%d/%m/%Y" }}
+            </p>
+          </a>
+        </li>
+      {%- assign active_class = "" -%}
+    {%- endfor -%}
+    <li class="latest-posts-button">
+      <a href="/posts">
+        Latest blog posts...
+      </a>
+    </li>
+  </ul>
+</div>
