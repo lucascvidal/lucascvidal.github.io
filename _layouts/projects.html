@@ -28,10 +28,13 @@ layout: default
 </div>
 
 <div class="menu">
-  <h3>Latest blog projects...</h3>
+  <h3>Projects</h3>
   <ul>
     {%- for project in site.projects limit:5  -%}
-      <li>
+      {%- if project.title == page.title -%}
+        {%- assign active_class = "current-project" -%}
+      {%- endif -%}
+      <li class="{{ active_class }}">
         <a href="{{ project.url | relative_url }}">
           {{ project.title }}
           <p>
@@ -39,6 +42,7 @@ layout: default
           </p>
         </a>
       </li>
+      {%- assign active_class = "" -%}
     {%- endfor -%}
   </ul>
 </div>

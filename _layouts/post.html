@@ -40,15 +40,15 @@ layout: default
     {%- for post in keep_reading_array -%}
       {%- if post.title == page.title -%}
         {%- assign active_class = "current-post" -%}
-        {%- endif -%}
-        <li class="{{ active_class }}">
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title }}
-            <p>
-              {{ post.date | date: "%d/%m/%Y" }}
-            </p>
-          </a>
-        </li>
+      {%- endif -%}
+      <li class="{{ active_class }}">
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          <p>
+            {{ post.date | date: "%d/%m/%Y" }}
+          </p>
+        </a>
+      </li>
       {%- assign active_class = "" -%}
     {%- endfor -%}
     <li class="latest-posts-button">

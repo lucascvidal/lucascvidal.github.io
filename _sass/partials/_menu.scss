@@ -65,7 +65,7 @@ div.menu {
         }
       }
 
-      &.current-post {
+      &.current-post, &.current-project {
         color: $primary-color;
         background-color: $quaternary-color;
     
