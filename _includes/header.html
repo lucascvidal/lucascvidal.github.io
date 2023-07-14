@@ -1,11 +1,18 @@
-{%- if page.url contains "post" || page.url contains "posts"  -%}
+{%- if page.url contains "post" || page.url contains "posts" -%}
   {%- assign header_class = "slim-header" -%}
   {%- assign show_home = true -%}
   {%- assign show_post = false -%}
 {%- endif -%}
-{%- if page.url == "/" || page.url == "/projects" -%}
+{%- if page.url contains "projects"  -%}
+  {%- assign header_class = "slim-header" -%}
+  {%- assign show_home = true -%}
+  {%- assign show_post = true -%}
+  {%- assign show_projects = false -%}
+{%- endif -%}
+{%- if page.url == "/" -%}
   {%- assign show_home = false -%}
   {%- assign show_post = true -%}
+  {%- assign show_projects = true -%}
 {%- endif -%}
 <header role="banner">
   <div class="{{header_class}}">
@@ -15,6 +22,8 @@
     {%- if show_home -%}
       <a href="/">Home</a>
     {%- endif -%}
-    <a href="/projects">Projects</a>
+    {%- if show_projects -%}
+      <a href="/projects">Projects</a>
+    {%- endif -%}
   </div>
 </header>

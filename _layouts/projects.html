@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="projects">
+  {% assign project = site.projects.first %}
+  <article class="project h-entry" itemscope itemtype="http://schema.org/Blogprojecting">
+
+    <header class="project-header">
+      <h1 class="project-title p-name" itemprop="name headline">{{ project.title | escape }}</h1>
+      <p class="project-meta">
+        {%- if project.author -%}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">{{ project.author }}, </span>
+          </span>
+        {%- endif -%}
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ project.date | date: "%d/%m/%Y" }}.
+        </time>
+      </p>
+    </header>
+  
+    <div class="project-content e-content" itemprop="articleBody">
+      {{ project.content }}
+    </div>
+    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  </article>
+</div>
+
+<div class="menu">
+  <h3>Latest blog projects...</h3>
+  <ul>
+    {%- for project in site.projects limit:5  -%}
+      <li>
+        <a href="{{ project.url | relative_url }}">
+          {{ project.title }}
+          <p>
+            {{ project.date | date: "%d/%m/%Y" }}
+          </p>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>

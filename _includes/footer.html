@@ -1,8 +1,21 @@
-{%- if page.url contains "post" || page.url contains "posts"  -%}
-  {%- assign header_class = "slim-footer" -%}
+{%- if page.url contains "post" || page.url contains "posts" -%}
+  {%- assign footer_class = "slim-footer" -%}
+  {%- assign show_home = true -%}
+  {%- assign show_post = false -%}
+{%- endif -%}
+{%- if page.url contains "projects"  -%}
+  {%- assign footer_class = "slim-footer" -%}
+  {%- assign show_home = true -%}
+  {%- assign show_post = true -%}
+  {%- assign show_projects = false -%}
+{%- endif -%}
+{%- if page.url == "/" -%}
+  {%- assign show_home = false -%}
+  {%- assign show_post = true -%}
+  {%- assign show_projects = true -%}
 {%- endif -%}
 <footer>
-  <div class="{{header_class}}">
+  <div class="{{footer_class}}">
     {{ site.title }} | {{ "now" | date: "%Y" }}
   </div>
 </footer>
