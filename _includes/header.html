@@ -2,6 +2,7 @@
   {%- assign header_class = "slim-header" -%}
   {%- assign show_home = true -%}
   {%- assign show_post = false -%}
+  {%- assign show_projects = true -%}
 {%- endif -%}
 {%- if page.url contains "projects"  -%}
   {%- assign header_class = "slim-header" -%}
@@ -16,11 +17,11 @@
 {%- endif -%}
 <header role="banner">
   <div class="{{header_class}}">
-    {%- if show_post -%}
-      <a href="/posts">Blog</a>
-    {%- endif -%}
     {%- if show_home -%}
       <a href="/">Home</a>
+    {%- endif -%}
+    {%- if show_post -%}
+      <a href="/posts">Blog</a>
     {%- endif -%}
     {%- if show_projects -%}
       <a href="/projects">Projects</a>

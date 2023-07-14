@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article class="project h-entry" itemscope itemtype="http://schema.org/Blogprojecting">
+
+  <header class="project-header">
+    <h1 class="project-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="project-meta">
+      {%- if page.author -%}
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span class="p-author h-card" itemprop="name">{{ page.author }}, </span>
+        </span>
+        {%- endif -%}
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ page.date | date: "%d/%m/%Y" }}.
+        </time>
+    </p>
+  </header>
+
+  <div class="project-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+
+<div class="menu">
+  <h3>Projects</h3>
+  <ul>
+    {%- for project in site.projects limit:5  -%}
+      {%- if project.title == page.title -%}
+        {%- assign active_class = "current-project" -%}
+      {%- endif -%}
+      <li class="{{ active_class }}">
+        <a href="{{ project.url | relative_url }}">
+          {{ project.title }}
+          <p>
+            {{ project.date | date: "%d/%m/%Y" }}
+          </p>
+        </a>
+      </li>
+      {%- assign active_class = "" -%}
+    {%- endfor -%}
+  </ul>
+</div>

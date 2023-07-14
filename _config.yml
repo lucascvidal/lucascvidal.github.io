@@ -23,10 +23,11 @@ url: "https://lucascvidal.github.io" # the base hostname & protocol for your sit
 github_username:  lucascvidal
 linkedin_profile: lucas-cezere-vidal
 collections:
-  - projects
+  projects:
+    output: true
 # Build settings
 markdown: kramdown
-permalink: /posts/:title
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
