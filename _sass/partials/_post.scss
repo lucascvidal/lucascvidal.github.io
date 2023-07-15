@@ -39,6 +39,17 @@ article.post {
   ul {
     list-style-type: disc;
     list-style-position: inside;
+    padding-left: 24px;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 24px;
+
+    li {
+      margin-bottom: 16px;
+    }
   }
 
   a {
@@ -53,5 +64,22 @@ article.post {
     color: $secondary-color;
     font-family: $secondary-font-family;
     font-weight: 600;
+  }
+
+  blockquote {
+    font-style: italic;
+    
+    p {
+      padding-left: 16px;
+      border-left: 2px solid $quaternary-color;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
   }
 }
