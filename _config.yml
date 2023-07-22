@@ -41,4 +41,4 @@ exclude:
   - vendor/ruby/
   - .sass-cache/
   - Dockerfile
-  - start.sh
+  - README.md
