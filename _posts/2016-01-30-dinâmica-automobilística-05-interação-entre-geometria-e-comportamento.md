@@ -11,7 +11,7 @@ Ao longo das postagens anteriores, escrevemos sobre o que acontece com um carro 
 
 Durante curvas aparecem forças laterais que fazem com que a estrutura do veículo role sobre as molas em relação a pontos localizados na dianteira e na traseira do veículo. Os centros de rolagem são centros instantâneos de rotação, portanto suas posições só podem ser definidas para uma dada altura em relação ao solo ou uma dada posição de rolagem. Na figura abaixo, o ponto Roll Center é o centro de rolagem do chassis.
 
-![Autopian](https://images-stag.jazelc.com/uploads/theautopian-m2en/Roll-Center-3.png)
+![Centro de rolagem](https://images-stag.jazelc.com/uploads/theautopian-m2en/Roll-Center-3.png)
 
 ## Eixo de rolagem
 
@@ -51,7 +51,7 @@ A distância entre o centro da roda e o ponto onde o eixo de esterçamento inter
 
 Tomando como exemplo uma curva à direita, com raio constante e um veículo somente com as rodas dianteiras esterçantes, a roda direita deve realizar uma trajetória circular de raio menor do que a roda esquerda. A geometria de Ackerman, neste caso, visa fazer com que o ângulo de esterçamento da roda direita seja maior do que o ângulo da roda esquerda, sendo possível que as rodas realizem as trajetórias mencionadas. Na figura abaixo pode-se observar um diagrama ilustrando a geometria de Ackerman.
 
-![Notre Dame](https://sites.nd.edu/james-cole/files/2019/03/ackerman-problem-825x509.jpg)
+![Geometria de Ackerman](https://sites.nd.edu/james-cole/files/2019/03/ackerman-problem-825x509.jpg)
 
 Ainda no exemplo da curva à direita, um mecanismo de direção que faz com que o ângulo de esterçamento da roda direita seja menor do que o da esquerda é chamado de um mecanismo de direção com geometria anti-Ackerman. Um mecanismo que faz com que o ângulo de esterçamento da roda direita seja muito maior do que o da esquerda é chamado de pró Ackerman.
 

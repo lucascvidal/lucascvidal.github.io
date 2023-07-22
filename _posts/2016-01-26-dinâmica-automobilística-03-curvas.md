@@ -11,11 +11,11 @@ Nas partes anteriores desta série explicamos como os pneus funcionam, o que aco
 
 Vamos definir algumas coisas e trabalhar as ideias a partir daí. Primeiro, vamos encarar toda curva como se fosse uma trajetória circular. Por que isso? Apesar de todas as curvas serem de fato segmentos de círculo, há curvas que mudam de raio constantemente, o que pode confundir a cabeça. Segundo, nesta postagem não vai ser possível separar de forma bem definida os eventos físicos e os modelos matemáticos que a engenharia utiliza para explicá-los, mas vamos tentar deixar a leitura o menos entediante possível. Vamos começar com um exemplo simples.
 
-![Mundo Educação](https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/09/forca-centrifuga-centripeta-movimento-circular.jpg)
+![Menino segurando uma massa por um fio](https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/09/forca-centrifuga-centripeta-movimento-circular.jpg)
 
 Imaginem que vocês estão segurando a ponta de uma linha com uma pequena esfera amarrada na outra ponta desta linha, e que estão girando-a, de modo que a esfera faça um círculo ao redor da sua mão. Se vocês soltarem a linha, a esfera deixa de percorrer o círculo, perdendo o controle da trajetória. A imagem acima mostra a esfera presa na linha, a trajetória circular em cinza e as forças envolvidas no evento em vermelho e azul. A força centrífuga é a que, em termos fáceis, joga a esfera para fora do círculo, e a força de reação é a que equilibra a força centrífuga, mantendo a esfera no círculo. Esta representação de forças é chamada de Diagrama de Corpo Livre. Estas mesmas forças estão presentes quando fazemos uma curva com um carro.
 
-![Motor Trend](https://www.motortrend.com/uploads/f/31506419.jpg)
+![Forças centrífugas e centrípetas em um carro](https://www.motortrend.com/uploads/f/31506419.jpg)
 
 A força centrífuga ainda age no centro de massa, no entanto, a reação da linha é substituída pelas reações dos pneus neste caso. Enquanto os pneus forem capazes de gerar uma reação de tamanho igual à força centrífuga, o carro seguirá a curva. Puxando um pouco para o lado acadêmico, a soma das forças será nula, igual a zero, ou seja, o veículo estará em equilíbrio. Se a força centrífuga for maior do que a gerada pelos pneus, o carro perderá o controle da trajetória, do mesmo jeito que se a linha for cortada ou solta no exemplo da esfera. Um pequeno comentário antes de prosseguirmos, como podem ver, é necessário que os quatro pneus reajam à força centrífuga. Aquela conversa de que carros de tração traseira são melhores, dinamicamente falando, do que os de tração dianteira porque os pneus dianteiros esterçam e os pneus traseiros tracionam não é de todo certa, isso dá a ideia de que os pneus traseiros não têm papel nenhum na curva, o que é mentira. Os quatro pneus têm de gerar força lateral.
 
@@ -31,7 +31,7 @@ Anteriormente explicamos o conceito de ângulo de deriva, e mostramos como os bo
 
 Vamos destrinchar um pouco mais o tema do atrito. As forças de atrito são as mesmas independente da direção em que forem aplicadas. Tomemos como exemplo o livro da foto abaixo, a força para desliza-lo é a mesma para a direção longitudinal quanto para a direção transversal. Se quiserem fazer um experimento para comprovar, prenda o livro em uma mola na direção do comprimento, arraste e meça a deformação da mola, prenda e arraste em outra direção e verá que a deformação é a mesma, consequentemente, [a força é a mesma.](https://www.sofisica.com.br/conteudos/Mecanica/Dinamica/fe.php)
 
-![eBay](https://i.ebayimg.com/images/g/BEoAAOSwFDliSSK9/s-l1600.jpg)
+![Livro Racecar Vehicle Dynamics](https://i.ebayimg.com/images/g/BEoAAOSwFDliSSK9/s-l1600.jpg)
 
 Vamos supor que uma força de 1 kgf seja necessária para fazer o livro deslizar. Se aplicarmos uma força de 0,98 kgf na direção horizontal, à direita, o livro não deslizará. No entanto, se aplicarmos também uma força de 0,20 kgf na direção vertical, o livro deslizará na direção entre as duas forças. O resultado líquido das duas forças, a chamada força resultante, atingiu o valor de 1 kgf, e é suficiente para fazer com que o livro deslize. Assim, podemos concluir que se duas ou mais forças estão sendo aplicadas em um corpo e não queremos que ele deslize, elas não podem exceder o limite de aderência, que no exemplo do livro é de 1 kgf.
 

@@ -53,7 +53,7 @@ Isso acontecia com o Camaro Z28 da geração passada nos testes de frenagem. [Ne
 
 Bom, pneus precisam se deformar para gerar uma reação, mas qual a intensidade dessa reação? Quanto ele se deforma para gerá-la? Isso depende de vários fatores, perfil do pneu, tamanho da área de contato, composto do pneu, pressão interna, e varia de pneu para pneu, mas todos eles tem características similares.
 
-![Racecar Engineering](https://www.racecar-engineering.com/wp-content/uploads/2020/01/Tyre-dynamics-slip-angle-vs-lateral-force-graph.jpg)
+![Slip Angle vs. Lateral Force](https://www.racecar-engineering.com/wp-content/uploads/2020/01/Tyre-dynamics-slip-angle-vs-lateral-force-graph.jpg)
 
 A imagem acima ilustra uma curva de performance de um pneu, com o ângulo de deriva em função da força lateral, para uma certa força vertical aplicada e uma certa pressão interna. Se mudarmos a força vertical aplicada, a curva muda, se mudarmos a pressão, a curva também muda. Do mesmo jeito que pode-se colocar em um gráfico a força lateral, pode-se colocar a força de frenagem, força de tração e outros parâmetros, como momento de auto-alinhamento.
 
@@ -67,7 +67,7 @@ Outra coisa interessante sobre a deformação dos pneus é que quanto mais mater
 
 Como escrevi anteriormente, pode-se plotar (colocar em um gráfico) diferentes valores em função do ângulo de deriva, como a força lateral, força de frenagem e força de tração. Também mencionei acima que o mecanismo de reação de um pneu é o mesmo para todos os sentidos, ele se deforma e gera forças do mesmo jeito tanto indo pra frente quanto indo pro lado. Pois bem, então todas as curvas deveriam ter a mesma forma e os mesmo valores, não? Não. Acontece que, apesar de o material do pneu se deformar e gerar reações por causa disso independentemente do sentido, o pneu não é feito somente de borracha.
 
-![Michelin](https://thetiredigest.michelin.com/resources/img/contenu/ecorche-V4-820x430.jpg)
+![Imagem em corte de um pneu Michelin](https://thetiredigest.michelin.com/resources/img/contenu/ecorche-V4-820x430.jpg)
 
 O composto polimérico da parede do pneu é geralmente diferente do composto da banda de rodagem. Além disso, há geralmente pelo menos 3 cintas com fibras de diferentes materiais abaixo da banda de rodagem, além da cinta que une a banda de rodagem com a parede. Essas cintas podem ser de vários materiais, como por exemplo nylon e aço, e o sentido das fibras das cintas também podem ser variados. Entre as diferentes cintas há material polimérico também, e todos esses componentes mencionados acima estão colados, formando uma coisa só.
 
@@ -77,7 +77,7 @@ Os componentes do pneu têm como função primária transmitir esforços. As cin
 
 Como em todo material compósito (sim, um pneu é feito de material compósito, assim com a fibra de carbono), a orientação das fibras têm grande influência em como o material resiste às tensões aplicadas, ou em palavras menos técnicas, como o pneu se segura quando o solo e a roda o puxam e deformam, por isso os valores de força de frenagem não são iguais aos valores de força lateral para um mesmo ângulo de deriva, o sentido em que a fibra é puxada é diferente.
 
-![PST](https://pstds.com/wp-content/uploads/2021/03/DR-carbon.png)
+![Eixo cardã de fibra de carbono](https://pstds.com/wp-content/uploads/2021/03/DR-carbon.png)
 
 Reparem que o sentido das fibras deste cardã é diferente do guidão do vídeo acima. Para tentar clarear um pouco mais essa questão da direção das fibras, quando um material é tracionado, por exemplo quando estamos puxando um fio de cobre, ele vai resistir mais do que quando sofre flexão, ou seja, quando esse mesmo fio for dobrado. Aplicando esse raciocínio no pneu, isso quer dizer que pneus radiais, por terem as fibras na mesma direção das forças laterais, são menos sensíveis à mudanças de cambagem, quando comparados com pneus diagonais (estes últimos com as fibras inclinadas em relação às forças laterais).
 

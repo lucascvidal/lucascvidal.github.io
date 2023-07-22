@@ -31,7 +31,7 @@ O que seria o mundo ideal, tanto para frenagem quanto aceleração? Tração nas
 
 Como havia comentado nas primeiras postagens desta série, a engenharia gosta de usar modelos matemáticos para prever as coisas e imaginar possíveis resultados. Neste caso, não é nada diferente, no entanto, esse modelo é um pouco mais chato de entender do que o apresentado na outra postagem, mas é na verdade somente uma aplicação da segunda lei de Newton, aquela que a gente não presta muito atenção na aula de física do ensino médio.
 
-![Gillespie](https://www.researchgate.net/profile/Jony-Eckert/publication/297918368/figure/fig3/AS:668910516977673@1536492103554/Figura-23-Forcas-que-atuam-no-veiculo-GILLESPIE-1992.jpg)
+![Forças atuantes no veículo na vista lateral](https://www.researchgate.net/profile/Jony-Eckert/publication/297918368/figure/fig3/AS:668910516977673@1536492103554/Figura-23-Forcas-que-atuam-no-veiculo-GILLESPIE-1992.jpg)
 
 Não vou entrar em detalhes, mas as cargas suportadas por cada eixo consistem de uma parcela estática e de carga sendo transferida da dianteira para a traseira e vice-versa. Fazendo uma somatória de momentos em A e B pode-se obter algumas equações, para não ficar muito entediante, vou simplificá-las para uso no plano, em situações estáticas e com aceleração. Primeiro no plano e sem se mexer:
 
