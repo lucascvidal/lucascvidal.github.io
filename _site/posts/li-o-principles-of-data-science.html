@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body><header role="banner">
+  <div class="slim-header"><a href="/">Home</a><a href="/projects">Projects</a></div>
+</header>
+<main aria-label="Content" class="main-container">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Li o Principles of Data Science</h1>
+    <p class="post-meta"><span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span class="p-author h-card" itemprop="name">Lucas Cezere Vidal, </span>
+        </span><time class="dt-published" datetime="2022-01-06T12:26:00+00:00" itemprop="datePublished">
+        06/01/2022.
+      </time>
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Terminei de ler o livro Principles of Data Science, escrito pelo Sinan Ozdemir, e resolvi compartilhar aqui as anotações que fui fazendo conforme fui avançando nos assuntos apresentados no livro.</p>
+
+<p>O meu objetivo nessa primeira leitura do livro foi pinçar as definições importantes e ter uma visão geral do tema ciência de dados. O livro oferece mais do que isso, se aprofundando em códigos de exemplo e em uma base fundamental técnica para conseguir fazer ciência de dados efetivamente, mas isso não aparecerá por aqui. Pois bem, vou começar apresentando definições sobre dados e sobre ciência de dados.</p>
+
+<p>Dados são um conjunto de informações organizadas ou desorganizadas. Ciência de dados é a arte e ciência de adquirir conhecimento através dos dados. Esse conhecimento pode nos permitir tomar decisões, prever o futuro, entender o passado ou o presente e criar novas indústrias ou produtos.</p>
+
+<p>O objetivo da ciência de dados é usar os dados para ter discernimento que de outra forma não conseguiríamos ter.</p>
+
+<h2 id="modelo-de-dados">Modelo de dados</h2>
+
+<p>Um modelo de dados é uma relação formal e organizada entre elementos dos dados, geralmente com o objetivo de simular um fenômeno do mundo real. Machine Learning tem como objetivo encontrar o melhor modelo baseado nos dados. Esses modelos são divididos em 2 tipos basicamente:</p>
+<ol>
+  <li>Probabilísticos;</li>
+  <li>Estatísticos.</li>
+</ol>
+
+<p>Antes de sairmos testando modelos em cima dos dados, é importante fazer uma análise exploratória deles. Essa análise consiste em arranjar os dados para gerar insights rapidamente, por exemplo através de gráficos. Assim, conseguimos identificar funcionalidades e relacionamentos chave a serem explorados no modelo de dados.</p>
+
+<p>Em meio a esse processo o termo mineração de dados aparece também. Uma definição para ele pode ser: o processo de encontrar relações entre elementos dos dados, o que se traduz em encontrar relações entre variáveis.</p>
+
+<h2 id="tipos-de-dados">Tipos de dados</h2>
+
+<p>Dados podem ser divididos em estruturados ou não-estruturados. Essa definição é basicamente a mesma apresentada anteriormente de dados organizados ou desorganizados. Quando dizemos que os dados são estruturados, queremos dizer que eles estão organizados em um formato de matriz, com linhas e colunas definidas.</p>
+
+<p>É bastante comum haver um pré-processamento de dados, que é um processo cujo objetivo é transformar os dados não-estruturados em dados estruturados. Uma outra categorização que podemos fazer com os dados é entre dados qualitativos e dados quantitativos.</p>
+
+<p>Os dados quantitativos podem ser descritos usando números, e procedimentos matemáticos básicos, como adição ou subtração, são possíveis no conjunto de dados. É possível ainda dividir os dados quantitativos em contínuos ou discretos. Discretos descrevem uma escala em degraus e contínuos em uma rampa.</p>
+
+<p>Já os dados qualitativos não podem ser descritos usando números e matemática básica. Este tipo de dado é geralmente descrito através de categorias naturais e linguagem.</p>
+
+<h3 id="níveis-de-dados">Níveis de dados</h3>
+
+<p>Conseguimos classificar dados em 4 níveis:</p>
+<ul>
+  <li>Nominal: descritos puramente pela categoria ou pelo nome;</li>
+  <li>Ordinal: permitem serem ordenados em um ranking;</li>
+  <li>Intervalo: permitem subtração;</li>
+  <li>Razão: permitem ordenação, diferenciação, além de multiplicação e divisão.</li>
+</ul>
+
+<h2 id="diferença-entre-análise-e-ciência-de-dados">Diferença entre análise e ciência de dados</h2>
+
+<p>A diferença entre análise de dados e ciência de dados é que a ciência de dados segue um passo-a-passo estruturado que preserva a integridade dos resultados. Os passos a seguir para fazer ciência de dados podem ser resumidos em:</p>
+<ol>
+  <li>Fazer uma pergunta interessante;</li>
+  <li>Obter os dados;</li>
+  <li>Explorar os dados;</li>
+  <li>Modelar os dados;</li>
+  <li>Comunicar e visualizar os resultados.</li>
+</ol>
+
+<h2 id="diferença-entre-machine-learning-e-um-algoritmo-clássico">Diferença entre Machine Learning e um algoritmo clássico</h2>
+
+<p>Machine Learning concerne a habilidade de encontrar certos padrões, ou sinais, nos dados, mesmo se houverem erros, ou ruídos, neles. A diferença entre um algoritmo clássico e um modelo de Machine Learning é que para um algoritmo clássico funcionar, um humano precisa primeiro encontrar a melhor solução, enquanto um modelo de Machine Learning é exposto aos dados e a partir daí é orientado a encontrar a melhor solução.</p>
+
+<h2 id="tipos-de-machine-learning">Tipos de Machine Learning</h2>
+
+<p>É possível separar os modelos de Machine Learning de acordo com alguns critérios:</p>
+<ul>
+  <li>O tipo de dados ou estruturas orgânicas que eles usam (árvore, grafo, rede neural);</li>
+  <li>Estatístico ou Probabilístico;</li>
+  <li>Nível de recursos necessários (Deep Learning).</li>
+</ul>
+
+<p>Além desse tipo de separação, podemos dividi-los de acordo com o tipo de aprendizado:</p>
+<ul>
+  <li>Supervisionado: utilizados para prever ou classificar algo;</li>
+  <li>Não-supervisionado: utilizados para agrupar ou reduzir a dimensão de um conjunto de dados;</li>
+  <li>Reforçado: utilizados para recompensar ações de agentes dentro de um ambiente.</li>
+</ul>
+
+<p>Parece um pouco óbvio que usamos modelos supervisionados para prever ou classificar alguma coisa, como por exemplo classificar se um objeto presente em uma foto é de um tipo específico. Já para os modelos não-supervisionados não é tão óbvia a função, por isso vale explicitar alguns casos de uso:</p>
+<ol>
+  <li>Quando não há uma variável clara a ser encontrada, ou seja, não sabemos o que prever ou correlacionar;</li>
+  <li>Quando precisamos estruturar dados não-estruturados;</li>
+  <li>Quando precisamos extrair funcionalidades de uma funcionalidade já existente.</li>
+</ol>
+
+<h3 id="árvore-de-decisão">Árvore de decisão</h3>
+
+<p>Um modelo de Machine Learning do tipo árvore de decisão é um modelo supervisionado usado para prever ou classificar algo, e tem como objetivo segmentar dados similares por várias e várias vezes, em vários nós, para conseguir prever ou classificar com maior precisão.</p>
+
+<h3 id="k-means-clustering">k-means clustering</h3>
+
+<p>É um modelo não-supervisionado, ou seja, não busca fazer previsões, e sim extrair estrutura de dados aparentemente não-estruturados.</p>
+
+<p>Clustering é uma família de modelos de Machine Learning que visa agrupar dados em torno de um centróide. Esse centróide não é um dos dados presentes no dataset, é somente uma abstração em torno da qual são agrupados os dados.</p>
+
+<p>O conceito de similaridade é muito importante para trabalharmos com clusters. Em geral, maior similaridade entre pontos leva a um melhor agrupamento (cluster). Na maioria dos casos, transformamos os dados em pontos dentro de um espaço n-dimensional, e a partir daí calculamos a distância entre esses pontos e a usamos para definir a similaridade entre eles.</p>
+
+<p>O propósito de uma análise de cluster é melhorar o nosso entendimento de um conjunto de dados dividindo-os em grupos. Isto nos provê uma camada de abstração dos pontos de dados individuais. O objetivo é extrair e deixar mais evidente a estrutura natural dos dados.</p>
+
+<p>O método k-means para clustering é iterativo, e particiona o conjunto de dados em k clusters. Funciona seguindo 4 passos:</p>
+<ol>
+  <li>Escolha k centróides iniciais (k é um parâmetro informado);</li>
+  <li>Para cada ponto nos dados, designe-o para o centróide mais próximo;</li>
+  <li>Recalcule a posição dos centróides;</li>
+  <li>Repita o passo 2 e 3 até que o critério de parada seja atingido.</li>
+</ol>
+
+<h2 id="além-do-essencial">Além do essencial</h2>
+
+<h3 id="erros-devidos-a-viés">Erros devidos a viés</h3>
+
+<p>Quando falamos de erros devido ao viés estamos nos referindo à diferença entre a previsão do nosso modelo e o valor correto, o qual estamos tentando prever.</p>
+
+<p>Viés, ou bias em inglês, mede, geralmente, o quão longe dos valores corretos o nosso modelo está. Se um modelo de machine learning prevê valores próximos aos corretos, dizemos que é um modelo com viés baixo, se não, é um modelo com viés alto.</p>
+
+<h3 id="erros-devido-à-variância">Erros devido à variância</h3>
+
+<p>Um erro devido à variância é um erro dependente da variabilidade de um modelo para um ponto. Imagine que repetimos várias vezes o processo de treinamento de um modelo. Para um valor de previsão fixo, podemos medir o quanto esses diferentes treinamentos estiveram mais próximos ou mais longes. Essa diferença é o erro devido à variância.</p>
+
+<h3 id="underfitting">Underfitting</h3>
+
+<p>O underfitting acontece quando o modelo não se encaixa nos dados. Geralmente se dá através de modelos que têm alto viés e baixa variância.</p>
+
+<h3 id="overfitting">Overfitting</h3>
+
+<p>O overfitting acontece quando o modelo se encaixa demais ao conjunto de dados, resultando em baixo viés, mas com uma variância muito mais alta.</p>
+
+<h3 id="k-folds-cross-validation">K folds cross-validation</h3>
+
+<p>Geralmente dividimos nossos conjuntos de dados em conjuntos de treinamento e conjuntos de teste. Um método mais eficiente de avaliação da performance do nosso modelo é o k folds cross-validation.</p>
+
+<p>Este método efetivamente usa múltiplas divisões de treino-teste no mesmo conjunto de dados, e isto é feito por algumas razões, mas principalmente por que assim conseguimos estimar de forma mais honesta o erro OOS (erro de fora da amostra).</p>
+
+<h3 id="técnicas-de-ensembling">Técnicas de ensembling</h3>
+
+<p>Ensembling learning, ou somente ensembling, é o processo de combinar múltiplos modelos preditivos para produzir um supermodelo que é mais preciso do que qualquer modelo individual sozinho:</p>
+<ol>
+  <li>Regressão: Pegamos a média das previsões de cada modelo;</li>
+  <li>Classificação: Usamos a previsão mais comum, ou a média das probabilidades previstas.</li>
+</ol>
+
+<h3 id="random-forests">Random forests</h3>
+
+<p>A principal fraqueza de árvores de decisão é que diferentes divisões nos dados de treinamento podem levar a árvores bem diferentes. Bagging é um processo de uso geral para reduzir a variância de um algoritmo de machine learning, e é especialmente útil para árvores de decisão.</p>
+
+<p>Bagging é uma abreviação de Bootstrap samples aggregation. Uma amostra de bootstrap é uma amostra de dados feita a partir de uma amostra maior, passando por um processo de reamostragem, onde pequenas amostras são retiradas, copiadas, e depois devolvidas para a amostra maior. Deste jeito, a quantidade de elementos da amostra que vai ser usada pode conter elementos duplicados.</p>
+
+<p>Random forests são uma variação de bagging trees. A diferença se encontra no momento de escolher as features a cada divisão dos dados.</p>
+
+<h3 id="comparando-random-forests-com-decision-trees">Comparando random forests com decision trees</h3>
+
+<p>Vantagens de random forests:</p>
+<ol>
+  <li>A performance é competitiva com os melhores métodos supervisionados;</li>
+  <li>Fornecem uma estimativa melhor de importância da feature;</li>
+  <li>Permitem estimar erros de OOS sem usar treino/teste ou validação cruzada.</li>
+</ol>
+
+<p>Desvantagens:</p>
+<ol>
+  <li>São menos interpretáveis (não é possível visualizar uma floresta inteira de árvores de decisão);</li>
+  <li>São mais devagar para treinar e prever (não são boas para produção ou uso em tempo real).</li>
+</ol>
+
+<h3 id="redes-neurais">Redes neurais</h3>
+
+<p>São redes computacionais construídas para modelar sistemas nervosos de animais. As vantagens são:</p>
+<ol>
+  <li>Redes neurais são capazes de estimar qualquer formato de função (isso é chamado de ser não-paramétrico);</li>
+  <li>Redes neurais podem se adaptar e literalmente modificar sua estrutura interna baseada no ambiente.</li>
+</ol>
+
+<p>As redes neurais são feitas de nós interconectados (perceptrons). Cada nó recebe um input (valor quantitativo) e fornece outro valor quantitativo. Sinais viajam pela rede e eventualmente caem em um nó de previsão.</p>
+
+<p>Redes neurais podem ser usadas para aprendizado supervisionado, não-supervisionado, e aprendizado reforçado. Pela flexibilidade e capacidade de adaptação, as redes neurais são as preferidas nos seguintes campos:</p>
+<ol>
+  <li>Reconhecimento de padrões;</li>
+  <li>Movimento de entidades;</li>
+  <li>Detecção de anomalias.</li>
+</ol>
+
+<p>A forma mais simples de uma rede neural é um único perceptron. Redes neurais com muitas camadas intermediárias podem formar uma rede profunda, que é o começo da discussão de deep learning.</p>
+
+<p>O livro acaba por aqui, definitivamente é uma leitura interessante para quem quer se aprofundar na área.</p>
+
+  </div>
+  <a class="u-url" href="/posts/li-o-principles-of-data-science" hidden></a>
+</article>
+
+
+<div class="menu">
+  <h3>Keep reading...</h3>
+  <ul><li class="">
+        <a href="/posts/o-tal-design-thinking">
+          O tal Design Thinking
+          <p>
+            04/07/2021
+          </p>
+        </a>
+      </li><li class="">
+        <a href="/posts/bduf-%C3%A9-v%C3%A1lido">
+          BDUF é válido?
+          <p>
+            16/11/2021
+          </p>
+        </a>
+      </li><li class="current-post">
+        <a href="/posts/li-o-principles-of-data-science">
+          Li o Principles of Data Science
+          <p>
+            06/01/2022
+          </p>
+        </a>
+      </li><li class="">
+        <a href="/posts/sobre-institucionalizar-conhecimento">
+          Sobre institucionalizar conhecimento
+          <p>
+            30/11/2022
+          </p>
+        </a>
+      </li><li class="">
+        <a href="/posts/plano-m%C3%ADnimo-para-desenvolver">
+          Plano mínimo para desenvolver
+          <p>
+            26/05/2023
+          </p>
+        </a>
+      </li><li class="latest-posts-button">
+      <a href="/posts">
+        Latest blog posts...
+      </a>
+    </li>
+  </ul>
+</div>
+
+    </main><footer>
+  <div class="slim-footer">
+    Lucas Cezere Vidal | 2023
+  </div>
+</footer>
+</body>
+
+</html>
