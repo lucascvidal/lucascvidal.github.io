@@ -50,10 +50,6 @@ div.menu {
         padding: 16px 48px;  
       }
 
-      &:not(.latest-posts-button) {
-        font-weight: 600;
-      }
-
       &.latest-posts-button {
         background-color: $secondary-color;
         font-size: 1rem;
@@ -90,6 +86,7 @@ div.menu {
         p {
           color: $quaternary-color;
           font-size: .875rem;
+          font-family: $secondary-font-family;
 
           @include media-query-up($xl) {
             font-size: 0.75rem;
