@@ -31,7 +31,7 @@ A resposta para a pergunta que dá título ao post já foi dada, mas eu queria e
 
 A partir da terceira marcha, o Sandero RS fica sempre acima dos 4500 rpm, aproveitando a faixa mais interessante do motor F4R (do pico de torque até o pico de potência). Na imagem acima é possível verificar as diferenças entre o escalonamento do Duster e do Sandero RS. Na imagem abaixo é possível verificar a diferença entre o escalonamento do Sandero RS e do Mégane RS. O câmbio do Mégane também é curto, mas as marchas são menos próximas do que no Sandero. O torque é bem maior no Mégane RS, então o câmbio pode (até atrevo dizer deve) ser um pouco mais longo.
 
-![Curvas de escalonamento para o Mégane RS e o Sandero RS]({%- asset_path escalonamento-sandero-megane.png -%})
+![Curvas de escalonamento para o Mégane RS e o Sandero RS]({%- asset_path escalonamento-sandero-megane-rs.png -%})
 
 ## O que a gente tira de tudo isso?
 
