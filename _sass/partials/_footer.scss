@@ -1,29 +1,44 @@
 footer {
-  color: $tertiary-color;
-  background-color: $primary-color;
-  font-family: $secondary-font-family;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5;
-  text-align: center;
-  padding: 26px;
+  border-top: 1px solid $secondary-color;
 
-  @include media-query-up($xl) {
-    background-color: $tertiary-color;
-    padding: 0;
+  ul {
+    padding: 36px 72px;
     display: flex;
-    justify-content: flex-end;
-  }
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
 
-  > div {
-    @include media-query-up($xl) {
-      background-color: $primary-color;
-      width: 50%;
-      padding: 26px;
-      box-sizing: border-box;
+    @include media-query-up($sm) {
+      align-items: flex-end;
+      font-size: 0.875rem;
+    }
 
-      &.slim-footer {
-        width: 25%;
+    li {
+      padding: 16px 0;
+      @include media-query-up($sm) {
+        padding: 8px 0;
+      }
+      
+      a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+        @include media-query-up($sm) {
+          align-items: normal;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+        
+        svg {
+          margin-right: 8px;
+
+          path {
+            fill: $primary-color;
+          }
+        }
       }
     }
   }
