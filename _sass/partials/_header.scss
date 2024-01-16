@@ -17,6 +17,7 @@ header {
 
     div.subtitle-container {
       display: flex;
+      justify-content: center;
       align-items: center;
       
       div.subtitle-line {
@@ -45,7 +46,11 @@ header {
 
 nav.navbar {
   font-family: $primary-font-family;
-  font-size: 1rem;
+  font-size: 1.25rem;
+
+  @include media-query-up($sm) {
+    font-size: 1rem;
+  }
   
   ul {
     display: flex;
