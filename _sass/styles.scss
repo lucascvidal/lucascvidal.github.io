@@ -7,16 +7,15 @@ $base-font-size:   16px;
 $base-font-weight: 400;
 $base-line-height: 1.5;
 
-$primary-color: #4f6d7a;
-$secondary-color: #dd6e42;
-$tertiary-color: #f3ecdb;
-$quaternary-color: #c0d6df;
+$primary-color: #000000;
+$secondary-color: #d2d2d2;
 
-$sm: 576px;
-$md: 768px;
-$lg: 992px;
-$xl: 1200px;
-$xxl: 1400px;
+
+$sm: 577px;
+$md: 769px;
+$lg: 993px;
+$xl: 1201px;
+$xxl: 1401px;
 
 @mixin media-query-up($device) {
   @media screen and (min-width: $device) {
@@ -26,11 +25,5 @@ $xxl: 1400px;
 
 @import
   "partials/base",
-  "partials/header",
-  "partials/footer",
-  "partials/home",
-  "partials/post",
-  "partials/posts",
-  "partials/projects",
-  "partials/menu"
+  "partials/header"
 ;
