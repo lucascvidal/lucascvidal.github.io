@@ -23,6 +23,7 @@ footer {
         display: flex;
         align-items: center;
         text-decoration: none;
+        color: $primary-color;
 
         @include media-query-up($sm) {
           align-items: normal;

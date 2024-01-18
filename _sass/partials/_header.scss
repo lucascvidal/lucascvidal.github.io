@@ -66,6 +66,7 @@ nav.navbar {
       display: block;
       border-top: 3px solid transparent;
       transition: all ease-in-out 0.3s;
+      color: $primary-color;
       
       &:hover {
         border-top: 3px solid $primary-color;
