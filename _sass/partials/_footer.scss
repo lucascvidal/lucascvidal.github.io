@@ -8,11 +8,6 @@ footer {
     align-items: center;
     font-size: 1.25rem;
 
-    @include media-query-up($sm) {
-      align-items: flex-end;
-      font-size: 0.875rem;
-    }
-
     li {
       padding: 16px 0;
       @include media-query-up($sm) {
@@ -24,10 +19,6 @@ footer {
         align-items: center;
         text-decoration: none;
         color: $primary-color;
-
-        @include media-query-up($sm) {
-          align-items: normal;
-        }
 
         &:hover {
           text-decoration: underline;
