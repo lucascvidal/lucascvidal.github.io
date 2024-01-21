@@ -47,6 +47,7 @@ header {
 nav.navbar {
   font-family: $primary-font-family;
   font-size: 1.25rem;
+  border-bottom: 1px solid $secondary-color;
 
   @include media-query-up($sm) {
     font-size: 1rem;
