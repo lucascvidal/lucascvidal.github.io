@@ -12,7 +12,6 @@ Since I needed a place to organize all of these things, and since I also needed 
 
 - How to work with Jekyll;
 - How to set up a GitHub Pages environment for site building;
-- I stretched a few of the CSS muscles with some clever HTML and CSS arrangements (you should check the responsiveness of elements at the home page, there are some simple but intriguing behaviour with paragraphs and columns);
 - I designed the UI in Figma before coding it;
 - I overcame limitations I had neved faced in my day-to-day activities (which are way more complex than this portfolio + blog) simply because of the nature of a static web site;
 - How to use GitHub Projects for project management;
