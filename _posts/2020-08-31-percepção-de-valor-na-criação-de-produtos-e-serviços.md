@@ -4,6 +4,7 @@ title:  "Percepção de valor na criação de produtos e serviços"
 date:   2020-08-31 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Business", "Product Development"]
 ---
 ## Introdução
 

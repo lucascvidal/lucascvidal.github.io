@@ -4,6 +4,7 @@ title:  "Como começar um projeto"
 date:   2018-12-23 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Business", "Product Development"]
 ---
 19 de Fevereiro de 2014, Instituto Mauá de Tecnologia, Bloco A, Sala A01, São Caetano do Sul, São Paulo, Brasil. Nesse dia e nesse local eu comecei a definir o meu projeto de graduação, o famoso trabalho de conclusão de curso. Mesmo tendo um professor orientador e um outro professor coordenando uma disciplina quinzenal que basicamente mostrava como a gente deveria tocar o trabalho, eu não tinha a mínima ideia de como começar um projeto desse porte.
 

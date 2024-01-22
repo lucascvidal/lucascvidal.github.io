@@ -4,6 +4,7 @@ title:  "Pressão baixa dos pneus no dinamômetro"
 date:   2018-05-08 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Há um tempo eu assisti um vídeo da FullPower que, entre as coisas que eles explicam em relação ao dinamômetro, eu pincei uma informação interessante. O Edu Bernasconi disse que deram duas puxadas em um mesmo carro, uma vez com pressão baixa nos pneus e outra vez com a pressão recomendada pelo fabricante, e a diferença foi de 6 cv.
 

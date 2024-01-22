@@ -4,6 +4,7 @@ title:  "Dinâmica automobilística - 01 - Pneus"
 date:   2016-01-18 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Sempre tive dúvidas em relação ao funcionamento dos carros e infelizmente na minha infância e adolescência não conheci ninguém com o conhecimento técnico ou paciência para saná-las. Pois bem, a curiosidade não ia embora e sempre que podia eu debulhava uma revista como a Quatro Rodas ou similar, através de informações que me esclarecessem as dúvidas, mas dificilmente conseguia saná-las pois estas fontes eram, e ainda são, muito genéricas e superficiais. Acabei criando o hábito de sempre procurar mais informações, em revistas, depois em sites e na faculdade, em livros.
 

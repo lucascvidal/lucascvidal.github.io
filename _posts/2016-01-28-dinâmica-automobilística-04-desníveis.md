@@ -4,6 +4,7 @@ title:  "Dinâmica automobilística - 04 - Desníveis"
 date:   2016-01-28 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Ao longo das postagens anteriores, escrevemos sobre o que acontece com um carro em acelerações, frenagens e em curvas. O tema desta postagem é a dinâmica vertical, ou o que acontece com o seu carro quando você passa por lombadas, zebras, elevações ou desníveis. Acredito que todos já passaram por uma lombada, no mínimo, e sentiram o que acontece com o carro. Para descrever o evento, quando passamos por uma lombada, as rodas (e mais um conjunto de coisas) são comprimidas em relação à carroceria e depois são distendidas, esse movimento causa uma aceleração vertical na carroceria e em tudo o que estiver ali, inclusive nos passageiros, dependendo da velocidade, até pulamos do banco. Diferente da dinâmica longitudinal e da lateral, a vertical tem bastante de seu mistério relacionado com a natureza das vibrações. Nesta postagem vamos tentar clarear alguns pontos destes mistérios.
 

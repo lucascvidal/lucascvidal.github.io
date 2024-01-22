@@ -4,6 +4,7 @@ title:  "Business Architecture"
 date:   2023-12-20 11:18:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: "Business"
 ---
 We got a request for working full time with a company leading business architecture processes. I had heard the term entreprise architecture, but business architecture was a new one for me, so I did some research and wrote this post.
 

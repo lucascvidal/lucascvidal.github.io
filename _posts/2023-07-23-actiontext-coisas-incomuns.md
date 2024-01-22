@@ -4,6 +4,7 @@ title:  "ActionText: Coisas incomuns"
 date:   2023-07-23 11:18:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: "Tech"
 ---
 Este artigo não é uma introdução ao ActionText, nem ao Rails. Se você já conhece os blocos de construção do Rails talvez entenda tudo o que vou escrever sobre. Se não conhece, recomendo parar de ler por aqui.
 

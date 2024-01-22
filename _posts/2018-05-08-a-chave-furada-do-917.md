@@ -4,6 +4,7 @@ title:  "A chave furada do 917"
 date:   2018-05-08 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 O Porsche 917 foi um dos carros mais importantes do automobilismo mundial, e há um detalhe nele que me chamou bastante a atenção desde a primeira vez que o vi. Esse detalhe é a chave furada.
 

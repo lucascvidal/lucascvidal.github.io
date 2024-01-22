@@ -4,6 +4,7 @@ title:  "Caminhos opostos para um carro neutro"
 date:   2018-05-08 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 ![Puma GT 1973](https://live.staticflickr.com/7444/16595612382_d6c3d23a39_h.jpg)
 

@@ -4,6 +4,7 @@ title:  "Li o Principles of Data Science"
 date:   2022-01-06 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: "Tech"
 ---
 Terminei de ler o livro Principles of Data Science, escrito pelo Sinan Ozdemir, e resolvi compartilhar aqui as anotações que fui fazendo conforme fui avançando nos assuntos apresentados no livro.
 

@@ -4,6 +4,7 @@ title:  "O carro da F-Inter"
 date:   2016-08-13 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 A F-Inter é uma categoria de monoposto com foco em ser uma categoria escola, um segundo degrau partindo do kart para os pilotos que querem se profissionalizar. O carro utilizado pela categoria é, de longe, um dos mais bem projetados e construídos no automobilismo nacional. Nesse post eu vou te mostrar o porquê. Continua lendo.
 

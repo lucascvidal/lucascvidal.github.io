@@ -4,6 +4,7 @@ title:  "Dinâmica automobilística - 02 - Aceleração e frenagem"
 date:   2016-01-24 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Nas primeiras partes desta série vocês viram as características básicas do pneu e de seu comportamento, observados pelo ponto de vista da dinâmica de um carro. Agora que vocês já têm uma noção do que acontece com os borrachudos, podemos continuar a clarear alguns tópicos deste tema.
 

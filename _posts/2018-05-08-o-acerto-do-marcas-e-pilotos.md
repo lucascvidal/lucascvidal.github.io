@@ -4,6 +4,7 @@ title:  "O acerto do Marcas e Pilotos"
 date:   2018-05-08 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Molas extremamente rígidas na traseira, pelo menos 6° negativos de cambagem na dianteira e pressões de pneu traseiros absurdas. Esse é basicamente o acerto que todos os carros do Marcas e Pilotos usam atualmente, e eu particularmente não acho que seja a melhor solução. Vou explicar melhor.
 

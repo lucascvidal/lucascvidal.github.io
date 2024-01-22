@@ -4,6 +4,7 @@ title:  "Algumas linhas sobre LGPD"
 date:   2020-12-07 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: "Business"
 ---
 ## Introdução
 

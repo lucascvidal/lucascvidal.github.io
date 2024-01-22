@@ -4,6 +4,7 @@ title:  "Plano mínimo para desenvolver"
 date:   2023-05-26 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Product Development"]
 ---
 Escrevi estas palavras depois de uma reunião que tive com o pessoal que trabalha comigo na KPMG. É mais curto que coice de porco, mas passa a ideia, e em algum momento futuro vou detalhar melhor cada um dos passos.
 

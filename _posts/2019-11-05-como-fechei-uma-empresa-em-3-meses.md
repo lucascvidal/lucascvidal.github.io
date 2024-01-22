@@ -4,6 +4,7 @@ title:  "Como fechei uma empresa em 3 meses"
 date:   2019-11-05 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: "Business"
 ---
 Eu tive uma experiência rápida como gerente de uma livraria no começo de 2017. Era uma franquia da livraria Nobel conjunta com uma franquia do Café Donuts, que é parte do mesmo grupo empresarial.
 

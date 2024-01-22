@@ -4,6 +4,7 @@ title:  "O carro da Stock Car"
 date:   2016-08-31 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 A Stock Car é a principal categoria do automobilismo nacional, e uma das poucas onde a maioria dos pilotos são profissionais pagos. O que me motivou a escrever essa postagem foi uma matéria do pessoal da Racecar Engineering. O link, para quem se interessar, é [esse aqui](https://www.racecar-engineering.com/articles/touringcar/the-boys-from-brazil-touring-cars-south-american-style/). Vale lembrar que o carro da Stock Car que eu vou analisar é o que está em uso desde 2010 até os dias atuais, produzido pela JL, em Cotia, SP.
 

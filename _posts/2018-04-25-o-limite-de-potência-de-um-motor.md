@@ -4,6 +4,7 @@ title:  "O limite de potência de um motor"
 date:   2018-04-25 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Todo o mundo tem praticamente a mesma resposta quando se trata de potência em um carro, e essa resposta é “queremos mais”. Mas até onde a gente consegue realmente usar essa potência? Continua lendo que eu vou te explicar onde a gente diz “chega!”.
 

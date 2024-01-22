@@ -4,6 +4,7 @@ title:  "Espaçador de roda"
 date:   2018-05-08 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 ![Espaçador de roda Autoplayerz](https://2.bp.blogspot.com/-2Bno1NopJEw/TxMSNFDpr0I/AAAAAAAAAm0/oETUDd1EcB0/s1600/TF03.jpg)
 

@@ -4,6 +4,7 @@ title:  "Monoposto"
 date:   2018-06-05 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Desde que eu me lembre eu tenho vontade de criar carros. Essa vontade norteou minha vida até o fim da faculdade. Fiz engenharia mecânica por causa dos carros e escolhi meus estágios e empregos sempre visando uma posição em que eu pudesse realizar esse sonho de infância em uma fabricante.
 

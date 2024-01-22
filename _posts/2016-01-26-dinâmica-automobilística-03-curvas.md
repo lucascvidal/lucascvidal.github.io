@@ -4,6 +4,7 @@ title:  "Dinâmica automobilística - 03 - Curvas"
 date:   2016-01-26 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Nas partes anteriores desta série explicamos como os pneus funcionam, o que acontece quando um carro acelera e freia e apresentamos a transferência de carga entre os eixos do veículo. Pois bem, acredito que todos já sentiram o corpo sendo jogado para o lado de fora da curva em um momento de condução vigorosa, já sentiram o carro rolar e já ouviram os pneus cantarem em uma entrada forte. Nesta postagem vamos começar a jogar um pouco de luz sobre essas coisas, em outras palavras, o comportamento em curvas dos carros.
 

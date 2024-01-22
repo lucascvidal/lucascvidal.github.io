@@ -4,6 +4,7 @@ title:  "Pneus de tamanhos diferentes"
 date:   2018-03-17 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Você provavelmente já percebeu que em alguns carros os pneus do eixo dianteiro são diferentes dos pneus dos eixos traseiros. Um exemplo bastante conhecido é o da Fórmula 1, onde os pneus traseiros são mais largos do que os dianteiros. Por que isso acontece? Continua lendo que eu vou te explicar.
 

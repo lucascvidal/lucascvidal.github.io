@@ -4,6 +4,7 @@ title:  "Dinamômetro inclinado atrapalha a medição de torque?"
 date:   2017-10-26 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Para quem gosta de carro mexido assistir puxadas no dinamômetro é um bom passatempo. Em uma tarde que eu estava com um tempo livre eu fiz isso. Fuçando no YouTube eu vi vários dinamômetros de rolo diferentes. Alguns eram subterrâneos, outros eram em uma plataforma elevada e alguns eram inclinados. Esses inclinados eram usados para medir carros com tração em 2 rodas somente. Na hora eu lembrei do comportamento dos Fórmula Vee no laranjinha em Interlagos.
 

@@ -4,6 +4,7 @@ title:  "Uma opinião sobre o FSAE"
 date:   2017-04-12 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 A Fórmula SAE, ou FSAE, é uma competição em que cada equipe inscrita deve projetar um carro para ser usado em eventos de autocross a partir de um regulamento único. O projeto e o carro construído são julgados em diversas categorias, custos, projeto técnico, modelo de negócios (sim, é preciso pensar em como e por que os clientes comprariam seu carro e não o da concorrência), e o desempenho do carro construído, afinal, o projeto pode ser bom, mas se a execução for ruim ou o carro tiver desempenho pior do que os outros, pontos serão perdidos.
 

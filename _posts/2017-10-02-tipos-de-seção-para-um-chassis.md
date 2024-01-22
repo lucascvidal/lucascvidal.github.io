@@ -4,6 +4,7 @@ title:  "Tipos de seção para um chassis"
 date:   2017-10-02 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Quando você for projetar um chassis tubular (ou um rollcage), você vai, em algum momento, dimensionar a seção a ser usada. Se você fizer uma pesquisa rápida no Google, vai ver que existem um monte de tipos de perfil, com várias espessuras de parede diferentes, feitos de várias ligas metálicas e ainda podendo ser costurados, laminados, laminados a frio, enfim, existe uma série de especificações que vão fazer o seu projeto um pouquinho mais complexo.
 

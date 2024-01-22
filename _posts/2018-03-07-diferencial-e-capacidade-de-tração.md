@@ -4,6 +4,7 @@ title:  "Diferencial e capacidade de tração"
 date:   2018-03-07 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Um diferencial pode atrapalhar na reta? Pode. Dependendo do nível de aderência dos pneus e do torque disponível, pode atrapalhar sim. Eu vou mostrar o porquê disso com números no próximo tópico, mas para você entender de onde veio esse post e não ficar boiando em algumas partes do texto, eu sugiro que você leia o post sobre o meu fim de semana como engenheiro na F-Inter.
 

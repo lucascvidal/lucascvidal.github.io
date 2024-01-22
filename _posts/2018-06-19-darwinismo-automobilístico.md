@@ -4,6 +4,7 @@ title:  "Darwinismo automobilístico"
 date:   2018-06-19 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Um dia desses eu estava pensando sobre o porquê existem os fanáticos por marcas de carro específicas, os fanboys. Eu sempre gostei muito de carro, mas a minha relação emocional com esse tipo de máquina foi evoluindo conforme os anos foram passando, e hoje eu não vejo o menor sentido em tomar partido de uma marca ou de outra.
 

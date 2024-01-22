@@ -4,6 +4,7 @@ title:  "Um cheiro sobre inovação"
 date:   2020-09-28 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Business", "Product Development"]
 ---
 ## Introdução
 

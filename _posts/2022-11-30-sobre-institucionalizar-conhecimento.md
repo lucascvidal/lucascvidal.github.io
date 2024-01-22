@@ -4,6 +4,7 @@ title:  "Sobre institucionalizar conhecimento"
 date:   2022-11-30 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: "Management"
 ---
 Em uma reunião semanal com o time que trabalho a gente discutiu um pouco sobre como transferir conhecimento das cabeçadas, cagadas, problemas resolvidos, entre outros, que encontramos nos projetos para o resto do time e, eventualmente, para pessoas novas que venham fazer parte dele.
 

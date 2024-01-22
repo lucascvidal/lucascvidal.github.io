@@ -4,6 +4,7 @@ title:  "O Sandero RS do Fullpower Projects"
 date:   2016-12-22 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Há um tempo eu publiquei um [post descrevendo as modificações feitas pela Renault Sport no Sandero RS](https://lucascvidal.github.io/) em comparação ao Sandero comum. Logo no começo do texto eu escrevi que muita gente gosta de usar o Sandero RS como base para um projeto ainda mais puxado para a pista. O pessoal da Fullpower fez exatamente isso e documentou as etapas no quadro Projects. Eu gosto muito da ideia de fazer um carro para a pista, sempre procuro acompanhar quem tem a coragem de expor os seus projetos na internet e às vezes eu escrevo sobre o que eu vejo. Nesse post eu vou comentar as modificações que o pessoal da Fullpower fez no RS original, do meu ponto de vista como engenheiro. O objetivo do pessoal da Fullpower é fazer um RS um pouco menos para o dia-a-dia e mais para a pista, dar uma incrementada no trabalho que a Renault Sport já fez, e sem o corpo técnico que ela dispõe.
 

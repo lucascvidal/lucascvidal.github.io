@@ -4,6 +4,7 @@ title:  "2 chaves para um rollcage bem feito"
 date:   2018-03-29 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Há um tempo eu escrevi sobre o rollcage feito no Sandero RS da Fullpower. Naquele post eu comentei sobre o material usado nas soldas, a função principal de um rollcage e comentei sobre a geometria da estrutura e os pontos onde ela estava fixada. Hoje eu vou me aprofundar um pouco na geometria e vou te mostrar como, só de bater o olho em um chassis (ou rollcage), você consegue saber se ele é relativamente rígido ou se tem problemas com torção indesejada. Eu sugiro que você dê uma lida no post do Sandero RS antes de ler o que eu preparei para esse post.
 

@@ -4,6 +4,7 @@ title:  "A fase da descoberta"
 date:   2021-05-11 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Business", "Product Development"]
 ---
 Vou contar uma história sobre os perrengues que passei com a tal da fase da descoberta. Na criação de produtos ou serviços a fase da descoberta é a fase inicial do processo de desenvolvimento. É nela que a gente destrincha e começa a definir o que deverá ser feito efetivamente.
 

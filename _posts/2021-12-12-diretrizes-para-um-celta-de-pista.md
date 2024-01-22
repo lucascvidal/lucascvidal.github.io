@@ -4,6 +4,7 @@ title:  "Diretrizes para um Celta de pista"
 date:   2021-12-12 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Há muito tempo eu escrevi sobre alguma coisa de engenharia mecânica por aqui, mas depois de migrar para a área de engenharia e desenvolvimento de software eu acabei deixando isso de lado. Este artigo é, de certa forma, um retorno à engenharia mecânica, e nele vou discorrer sobre algumas ideias que tenho para construir um carro de pista de tração dianteira e peso majoritariamente apoiado no eixo dianteiro, o famoso Chevrolet Celta, que eu cheguei a ter um e até esbocei alguma coisa para ser feita nele, mas acabei vendendo-o depois de algumas turbulências pessoais.
 

@@ -4,6 +4,7 @@ title:  "Diferença entre rendimento e desempenho"
 date:   2018-02-23 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Algumas pessoas confundem rendimento com desempenho do motor. Na engenharia mecânica, essas são duas coisas diferentes e não têm como ser sinônimas.
 

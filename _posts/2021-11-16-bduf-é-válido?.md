@@ -4,6 +4,7 @@ title:  "BDUF é válido?"
 date:   2021-11-16 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Product Development"]
 ---
 BDUF é uma sigla para Big Design Upfront. Traduzindo, BDUF é o planejamento completo feito logo no início de um projeto.
 

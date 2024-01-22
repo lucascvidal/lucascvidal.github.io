@@ -4,6 +4,7 @@ title:  "A development process"
 date:   2020-06-15 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Product Development"]
 ---
 I believe developing any kind of product has 3 stages:
 - Defining what should be built

@@ -4,6 +4,7 @@ title:  "O tal Design Thinking"
 date:   2021-07-04 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Product Development"]
 ---
 Fiz um curso rápido sobre Design Thinking e o que vocês vão ler nas próximas linhas é o resumo das minhas anotações feitas durante ele.
 

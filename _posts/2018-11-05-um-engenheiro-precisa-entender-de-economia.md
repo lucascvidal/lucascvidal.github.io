@@ -4,6 +4,7 @@ title:  "Um engenheiro precisa entender de economia?"
 date:   2018-11-05 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: "Business"
 ---
 O título poderia ser "um profissional de qualquer setor que não seja economia precisa entender de economia?"
 

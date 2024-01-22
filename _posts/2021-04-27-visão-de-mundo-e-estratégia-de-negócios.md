@@ -4,6 +4,7 @@ title:  "Visão de mundo e estratégia de negócios"
 date:   2021-04-27 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: "Business"
 ---
 Decidi escrever sobre esse assunto porque, depois de algum tempo refletindo para conseguir colocar em palavras a minha própria visão de mundo, vejo pessoas com visões de mundo conflitantes com negócios trabalharem justamente tentando criar novos negócios, e isso simplesmente me deixou curioso demais para não escrever algumas linhas.
 

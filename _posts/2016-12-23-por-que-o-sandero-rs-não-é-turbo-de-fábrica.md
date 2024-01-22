@@ -4,6 +4,7 @@ title:  "Por que o Sandero RS não é turbo de fábrica"
 date:   2016-12-23 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Potência? Turbo. Torque? Turbo. Dar benga em carro mais caro? Turbo. Da mesma forma que chocolate, turbo parece ser a resposta para todas as perguntas da vida. Se turbo não for a resposta, você está fazendo a pergunta errada. O turbo se popularizou de vez entre as fabricantes e desde a década de 90 já é bastante popular entre os preparadores. Eu gosto bastante do turbo, acho que foi uma invenção bem interessante e que aumenta drasticamente o rendimento e o desempenho do motor sem custar muito, quando bem feito. Por que eu estou falando tanto do turbo? Você já deve ter lido o título do post, então não é mais segredo, hoje eu vou explicar o porquê do Sandero RS não ter vindo de fábrica com um caracol pendurado no cofre, na minha opinião.
 

@@ -4,6 +4,7 @@ title:  "Controle de pressão do turbo pela FT600"
 date:   2018-05-08 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Há um tempo eu vi uma série de vídeos falando sobre um recurso da FuelTech FT600. Esse recurso era o Boost Controller, que é um módulo de controle da pressão do turbo. Se você não tiver uma FT600, pode comprar esse módulo separado.
 

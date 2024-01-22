@@ -4,6 +4,7 @@ title:  "Efeitos da temperatura"
 date:   2018-04-05 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Quase qualquer coisa que é produzida no mundo usa alguma coisa de engenharia mecânica. A engenharia automobilística é uma divisão da engenharia mecânica. A dinâmica veicular é uma divisão da engenharia automobilística, e ela é a ciência que explica e prevê como os carros se movimentam. Se você quiser projetar um carro vai, indiscutivelmente, usar algum conceito de dinâmica veicular, mesmo sem saber.
 

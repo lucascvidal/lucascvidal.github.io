@@ -4,6 +4,7 @@ title:  "Definindo um swap de motor"
 date:   2018-04-24 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Swap de motor está quase sempre no Top 5 das coisas que um entusiasta gostaria de fazer no seu carro. Tenho certeza que já passou pela sua cabeça trocar o motor do seu carro por outro mais potente.
 

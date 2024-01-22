@@ -4,6 +4,7 @@ title:  "Um fim de semana como engenheiro na F-Inter"
 date:   2017-07-08 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Dia 19/05/2017, sexta-feira, 04h40. Acordo com o dia escuro, tomo um banho, como 2 torradas com requeijão, separo uma banana para levar e vou para a garagem. Abro o portão da garagem debaixo de uma chuva leve, espero o Uno esquentar um pouco e pego a Via Anchieta sentido São Paulo. Estou indo para o Autódromo José Carlos Pace, o famoso circuito de Interlagos. A chuva leve vira uma enxurrada, dificultando bastante a visão. Chego em Interlagos por volta das 6 horas da manhã. A chuva ainda não cessou. Estaciono o Uno no terrão onde a bomba de combustível para os carros de corrida do Paulista de Automobilismo fica, e vou subindo as escadas para chegar aos boxes.
 

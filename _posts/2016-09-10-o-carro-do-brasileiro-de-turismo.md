@@ -4,6 +4,7 @@ title:  "O carro do Brasileiro de Turismo"
 date:   2016-09-10 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 O Campeonato Brasileiro de Turismo surgiu para ocupar o lugar da Stock Light e da Copa Montana como categoria de entrada da Stock Car. O carro é parecido com o da Stock Car, tem motor V8 com menos potência e um chassis tubular, mas as semelhanças acabam por aí. O chassis, suspensão, e todo o resto do projeto, com exceção do motor, foi feito dentro da JL, em Cotia, SP. Nesse post eu vou analisar o projeto e execução do carro usado na categoria. Sugiro que você leia o post sobre o carro da Stock Car, visto que algumas coisas que eu escrevi lá serão retomadas aqui.
 

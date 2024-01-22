@@ -4,6 +4,7 @@ title:  "Por que este Gol preparado não tem 600 cv"
 date:   2018-02-23 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Este post é sobre [este VW Gol](https://www.youtube.com/watch?v=l1i7_h1RuiU) preparado.
 

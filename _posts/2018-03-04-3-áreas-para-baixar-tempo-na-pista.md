@@ -4,6 +4,7 @@ title:  "3 áreas para baixar tempo na pista"
 date:   2018-03-04 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 e você for em alguma etapa do Paulista de Automobilismo ou algum track day em Interlagos você vai ver todo mundo, sem exceção, querendo baixar o tempo de volta. Eu dei o exemplo de São Paulo, mas em todas as outras pistas do mundo acontece a mesma coisa, baixar tempo de volta é o objetivo. Geralmente o pessoal foca em modificar o carro, ajustar, acertar pressões de pneu, geometria de suspensão, enfim, geralmente é isso que acontece. Talvez você esteja se perguntando "Ué, tem outro jeito de baixar tempo que não seja mexendo no carro?" E a resposta é sim, existe outro jeito. Na verdade existem 3 áreas de atuação para baixar tempo na pista.
 

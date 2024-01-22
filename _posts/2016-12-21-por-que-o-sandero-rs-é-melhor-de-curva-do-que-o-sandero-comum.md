@@ -4,6 +4,7 @@ title:  "Por que o Sandero RS é melhor de curva do que o Sandero comum"
 date:   2016-12-21 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Um monte de gente gosta do Sandero RS. Um outro monte de gente gostaria de usá-lo como base para uma coisa mais focada para a pista. É uma senhora responsabilidade mexer em algo que tem o selo Renault Sport, afinal, é uma companhia com raízes (e vitórias) em Le Mans, Rally, F1 e algumas outras, ou seja, não é muito fácil colocar a mão em um projeto dos caras pelo fato de que aquilo foi muito bem pensado por gente muito competente para atingir um objetivo específico. Este objetivo, no caso do Sandero RS, é ser um hot hatch para uso diário e eventuais track days.
 

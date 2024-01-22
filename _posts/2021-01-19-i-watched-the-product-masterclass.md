@@ -4,6 +4,7 @@ title:  "I watched the 'Product Masterclass: How to build digital products' from
 date:   2021-01-19 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Business", "Product Development"]
 ---
 I watched a few courses that made the "Product Masterclass" from Product School. The subtitle to the masterclass was "How to build digital products".
 

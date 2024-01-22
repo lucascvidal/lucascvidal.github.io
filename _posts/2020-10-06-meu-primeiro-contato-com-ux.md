@@ -4,6 +4,7 @@ title:  "Meu primeiro contato com UX"
 date:   2020-10-06 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Business", "Product Development"]
 ---
 ## Introdução
 

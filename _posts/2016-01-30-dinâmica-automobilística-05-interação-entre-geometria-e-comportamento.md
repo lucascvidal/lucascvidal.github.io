@@ -4,6 +4,7 @@ title:  "Dinâmica automobilística - 05 - Interação entre geometria e comport
 date:   2016-01-30 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Ao longo das postagens anteriores, escrevemos sobre o que acontece com um carro em acelerações, frenagens, curvas e desníveis. O tema desta postagem é a interação entre os diversos parâmetros de geometria da suspensão e o comportamento do carro. A leitura das partes anteriores desta série é importante para entender os assuntos discutidos nesta postagem, portanto, se não se sentir familiar com os termos e conceitos apresentados, demorem o quanto for necessário nas outras postagens. Aos que já as leram, retomaremos vários assuntos discutidos anteriormente. Vamos apresentar alguns conceitos e em seguida explicaremos sua influência no comportamento do carro.
 

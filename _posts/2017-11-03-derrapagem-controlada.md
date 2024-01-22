@@ -4,6 +4,7 @@ title:  "Derrapagem controlada"
 date:   2017-11-03 09:26:00 -0300
 author: Lucas Cezere Vidal
 permalink: /posts/:title
+categories: ["Automotive Engineering"]
 ---
 Recentemente eu comprei um livro chamado "Entre Ases e Reis de Interlagos", do Bird Clemente. A imagem da capa é um Willys Interlagos vindo de lado em uma derrapagem controlada numa das curvas de alta velocidade que o traçado antigo de Interlagos tinha. Não existem muitos vídeos das façanhas que o pessoal realizava, em particular o próprio Bird Clemente, com os Willys Interlagos, que ele chama carinhosamente de Berlinette. Isso tudo aconteceu na década de 1960, e eu queria ter uma máquina do tempo para poder ver com os meus próprios olhos o que era o circuito de Interlagos, a cidade de São Paulo e a vida naqueles dias.
 
