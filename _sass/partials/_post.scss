@@ -1,10 +1,12 @@
 article.post {
   padding: 72px;
+  max-width: 1200px;
+  margin: 0 auto;
 
   @include media-query-up($md) {
     padding: 96px;
   }
-  
+
   @include media-query-up($xl) {
     padding: 48px;
     width: 75%;
@@ -12,8 +14,14 @@ article.post {
 
   header.post-header {
     display: block;
+    padding: 16px 0;
+    border-bottom: none;
+
+    .post-title {
+      font-family: $secondary-font-family;
+    }
   }
-  
+
   h1 {
     font-size: 2rem;
     margin: 24px 0;
@@ -37,7 +45,18 @@ article.post {
     margin: 24px 0;
     font-weight: 600;
   }
-  p, ul {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $secondary-font-family;
+  }
+
+  p,
+  ul {
     margin-bottom: 16px;
   }
 
@@ -46,7 +65,7 @@ article.post {
     list-style-position: inside;
     padding-left: 24px;
   }
-  
+
   ol {
     list-style-type: decimal;
     list-style-position: inside;
@@ -58,25 +77,25 @@ article.post {
   }
 
   a {
-    color: $secondary-color;
+    color: $primary-color;
 
     &:visited {
-      color: $quaternary-color;
+      color: $primary-color;
     }
   }
 
   p.post-meta {
-    color: $secondary-color;
-    font-family: $secondary-font-family;
+    color: $primary-color;
+    font-family: $primary-font-family;
     font-weight: 600;
   }
 
   blockquote {
     font-style: italic;
-    
+
     p {
       padding-left: 16px;
-      border-left: 2px solid $quaternary-color;
+      border-left: 2px solid $primary-color;
     }
   }
 

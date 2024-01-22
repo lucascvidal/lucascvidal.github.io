@@ -3,42 +3,40 @@ layout: default
 ---
 
 <div class="posts">
-  {% assign post = site.posts.first %}
-  <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
-    <header class="post-header">
-      <h1 class="post-title p-name" itemprop="name headline">{{ post.title | escape }}</h1>
-      <p class="post-meta">
-        {%- if post.author -%}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ post.author }}, </span>
-          </span>
-        {%- endif -%}
-        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {{ post.date | date: "%d/%m/%Y" }}.
-        </time>
-      </p>
-    </header>
-  
-    <div class="post-content e-content" itemprop="articleBody">
-      {{ post.content }}
-    </div>
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-  </article>
-</div>
-
-<div class="menu">
-  <h3>Latest blog posts...</h3>
   <ul>
     {%- for post in site.posts limit:5  -%}
-      <li>
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title }}
-          <p>
-            {{ post.date | date: "%d/%m/%Y" }}
+    <li>
+      <a href="{{ post.url | relative_url }}">
+        <h3>
+            {{ post.title }}
+          </h3>
+          <p class="post-meta">
+            {%- if post.author -%}
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                <span class="p-author h-card" itemprop="name">{{ post.author }}, </span>
+              </span>
+              {%- endif -%}
+            <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+              {{ post.date | date: "%d/%m/%Y" }}.
+            </time>
           </p>
+          <p>{{ post.content | strip_html | slice: 0, 200 }}{% if post.content.size > 200 %}...{% endif %}</p>
         </a>
       </li>
-    {%- endfor -%}
-  </ul>
+      {%- endfor -%}
+    </ul>
+
+    {% assign posts_by_year = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+    <div class="posts-menu">
+      {% for year in posts_by_year %}
+        <div class="posts-year">
+          <h1 class="label" onclick="toggleSection('{{ year.name }}')">{{ year.name }}</h1>
+          <ul class="section" id="{{ year.name }}">
+            {% for post in year.items %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
 </div>

@@ -55,7 +55,7 @@ table {
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $primary-font-family;
   color: $primary-color;
-  background-color: $tertiary-color;
+  background-color: white;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;

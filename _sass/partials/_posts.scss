@@ -1,15 +1,95 @@
-div.posts {
-  @include media-query-up($xl) {
-    width: 75%;
+.posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  @include media-query-up($md) {
+    justify-content: space-between;
+    align-items: initial;
+    flex-direction: row;
+  }
+
+  ul {
+    padding-top: 36px;
+
+    li {
+      
+      &:not(:last-child) {
+        border-bottom: 1px solid $secondary-color;
+      }
+      
+      a {
+        color: $primary-color;
+        text-decoration: none;
+        padding: 32px 36px;
+        display: block;
+
+
+        h3 {
+          font-family: $secondary-font-family;
+          font-size: 1.5rem;
+          font-weight: 700;
+          margin-bottom: 16px;
+        }
+
+        p {
+          margin-bottom: 16px;
+        }
+      }
+    }
+  }
+
+  .section {
+    transition: max-height ease-in 1s;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .label {
+    cursor: pointer;
+    font-family: $secondary-font-family;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 16px 0;
     
-    article.post {
-      width: initial;
+    @include media-query-up($md) {
+      text-align: right;
     }
   }
 }
 
-div.posts + div.menu, article.post + div.menu {
-  @include media-query-up($xl) {
-    width: 25%;
+.posts-menu {
+  padding-top: 36px;
+  
+  @include media-query-up($md) {
+    padding-right: 16px;
+    width: 200px;
+    border-left: 1px solid $secondary-color;
+  }
+
+  @include media-query-up($xxl) {
+    padding-right: 0;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      &:not(:last-child) {
+        border-bottom: none;
+      }
+      
+      a {
+        padding: 12px 8px;
+        text-align: center;
+        
+        @include media-query-up($md) {
+          font-size: 0.75rem;
+          padding-right: 16px;
+          text-align: right;
+        }
+      }
+    }
   }
 }
