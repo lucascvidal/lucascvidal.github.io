@@ -1,0 +1,36 @@
+.categories {
+  padding-top: 36px;
+  
+  @include media-query-up($md) {
+    padding: 36px 72px;
+  }
+  
+  ul {
+    li {      
+      a {
+        padding: 12px 8px;
+        display: block;
+        text-decoration: none;
+        color: $primary-color;
+
+        &:visited {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+  
+  .section {
+    transition: max-height ease-in 1s;
+    overflow: hidden;
+    max-height: 0;
+  }
+  
+  .label {
+    cursor: pointer;
+    font-family: $secondary-font-family;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 16px 0;
+  }
+}

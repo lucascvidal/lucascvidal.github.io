@@ -110,4 +110,20 @@ article.post {
   img {
     max-width: 100%;
   }
+
+  .post-categories {
+    padding-top: 36px;
+
+    a {
+      padding: 8px 12px;
+      border-radius: 4px;
+      background-color: $primary-color;
+      color: white;
+      text-decoration: none;
+
+      &:visited {
+        color: white;
+      }
+    }
+  }
 }

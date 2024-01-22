@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="categories">
+  {% for category in site.categories %}
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div>
+      <h1 class="label" onclick="toggleSection('{{ category_name | slugize }}')">{{ category_name }}</h1>
+      <ul class="section" id="{{ category_name | slugize }}">
+        {% for post in site.categories[category_name] %}
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>
