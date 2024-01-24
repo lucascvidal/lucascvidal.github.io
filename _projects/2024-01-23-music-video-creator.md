@@ -1,10 +1,11 @@
 ---
 layout: post
 title:  "Music Video Creator"
-date:   2024-01-24 18:06:00 -0300
+date:   2024-01-23 18:06:00 -0300
 author: Lucas Cezere Vidal
 permalink: /projects/:title
 ---
+
 Let me write about an interesting project that started out as a simple script to automate a few tasks and turned into a comprehensive bot that integrates with several APIs.
 
 So, I created a YouTube Dark Channel with the goal of monetizing the audience through Google AdSense. However, I grew weary of manually producing videos, prompting me, as a developer, to contemplate automating the video creation process.
