@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Diving Deep into CSS: The Making of Front-End Showoff"
-date:   2024-02-25 18:06:00 -0300
+date:   2024-02-25 11:06:00 -0300
 author: Lucas Cezere Vidal
 permalink: /projects/:title
 ---
