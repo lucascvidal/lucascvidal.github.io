@@ -1,5 +1,7 @@
 # My portfolio and blog
 
+NOTE: This repository is now archived. I did have a custom portfolio and blog hosted on GitHub pages, but I have moved my activities to LinkedIn, and decided it was time to archive this repository.
+
 This is the source code for my current portfolio and blog.
 
 I'm a mechanical engineer that has gotten into software engineering and development, and I'm currently working with innovative software solutions at KPMG in São Paulo, Brazil.
